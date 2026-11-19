@@ -1,0 +1,83 @@
+@font-face{font-family:'SVN-Gilroy Italic';src:url('/assets/vyora/fonts/Gilroy-Italic.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'SVN-Gilroy Xlight Italic';src:url('/assets/vyora/fonts/Gilroy-Xlight-Italic.otf') format('opentype');font-weight:200;font-style:normal;font-display:swap}
+#root:has(.login-shell){width:100%;max-width:none;border:0;margin:0;text-align:left}
+.login-shell{position:relative;width:100%;overflow:hidden;background:white;text-align:left}
+.vyora-login{position:absolute;left:max(0px,calc((100% - 1920px)/2));top:0;width:1920px;height:1422px;transform-origin:top left;color:#000;background:white;font-family:SVN-Gilroy,Arial,sans-serif;font-size:14px;line-height:normal;letter-spacing:normal;color-scheme:light}
+.vyora-login *{box-sizing:border-box;border-width:0;border-style:solid}
+.vyora-login p{margin:0}
+.vyora-login img{display:block}
+.vyora-login [data-node-id="91:234"]{font-family:'SVN-Gilroy Italic',sans-serif}
+.vyora-login [data-node-id="91:192"]{font-family:'SVN-Gilroy Xlight Italic',sans-serif}
+.vyora-login [data-node-id="91:203"],.vyora-login [data-node-id="91:214"],.vyora-login [data-node-id="91:237"]{visibility:hidden}
+.login-form{display:contents}
+.login-sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.vyora-login .login-input{position:absolute;left:169px;width:350px;height:50px;margin:0;padding:0 46px 0 37px;background:transparent;border:1px solid transparent;border-radius:5px;outline:none;font:400 14px/normal SVN-Gilroy,sans-serif;color:#000}
+.vyora-login .login-input::placeholder{color:rgba(0,0,0,.2);opacity:1}
+.vyora-login .login-input:focus{border-color:#0289eb;outline:none}
+.vyora-login .login-username{top:233px}
+.vyora-login .login-password{top:299px}
+.vyora-login .login-hit{position:absolute;display:block;padding:0;margin:0;border:0;background:transparent;cursor:pointer}
+.vyora-login .login-hit:focus-visible{outline:2px solid #005fa6;outline-offset:3px}
+.vyora-login .login-logo{left:69px;top:32px;width:190px;height:85px}
+.vyora-login .login-forum{left:1207px;top:2px;width:80px;height:28px}
+.vyora-login .login-help{left:1647px;top:59px;width:150px;height:34px}
+.vyora-login .login-visibility{left:478px;top:308px;width:28px;height:32px;border-radius:4px}
+.vyora-login .login-submit{left:169px;top:365px;width:350px;height:50px;border-radius:5px}
+.vyora-login .login-remember{position:absolute;left:169px;top:429px;width:130px;height:20px;cursor:pointer}
+.vyora-login .login-remember input{appearance:none;position:absolute;left:0;top:2px;width:14px;height:14px;margin:0;border:1px solid #0289eb;background:white;cursor:pointer}
+.vyora-login .login-remember input:checked{background:#0289eb}
+.vyora-login .login-remember input:checked::after{content:'✓';position:absolute;left:1px;top:-3px;color:white;font-size:14px}
+.vyora-login .login-remember input:focus-visible{outline:2px solid #005fa6;outline-offset:3px}
+.vyora-login .login-forgot{left:397px;top:426px;width:122px;height:26px}
+.vyora-login .login-facebook{left:169px;top:504px;width:170px;height:40px}
+.vyora-login .login-google{left:348px;top:504px;width:170px;height:40px}
+.vyora-login .login-signup{left:403px;top:636px;width:100px;height:28px}
+.vyora-login .login-status{position:absolute;left:169px;top:453px;width:350px;text-align:center;color:#c33;font:400 10px/13px SVN-Gilroy,sans-serif}
+
+.vyora-login .login-top-signup{left:1610px;top:2px;width:70px;height:28px}
+
+/* Hide the in-field hint while editing; restore it only for an empty, blurred field. */
+.vyora-login .login-input:focus::placeholder{color:transparent}
+.vyora-login:has(#vyora-username:is(:focus,:not(:placeholder-shown))) [data-node-id="91:211"],
+.vyora-login:has(#vyora-password:is(:focus,:not(:placeholder-shown))) [data-node-id="91:224"],
+.vyora-login:has(#register-username:is(:focus,:not(:placeholder-shown))) [data-node-id="91:388"],
+.vyora-login:has(#register-password:is(:focus,:not(:placeholder-shown))) [data-node-id="91:393"],
+.vyora-login:has(#register-confirmation:is(:focus,:not(:placeholder-shown))) [data-node-id="91:426"],
+.vyora-login:has(#register-email:is(:focus,:not(:placeholder-shown))) [data-node-id="91:449"],
+.vyora-login:has(#register-phone:is(:focus,:not(:placeholder-shown))) [data-node-id="91:463"]{visibility:hidden}
+
+.registration-notice {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  max-width: calc(100% - 2rem);
+  box-sizing: border-box;
+  padding: .85rem 1rem;
+  border-left: 4px solid #218451;
+  border-radius: 8px;
+  background: #f4fff8;
+  color: #16432c;
+  box-shadow: 0 4px 18px #0002;
+  text-align: left;
+  font: 16px/1.4 SVN-Gilroy, Arial, sans-serif;
+}
+
+.registration-notice p { margin: .2rem 0 0; }
+
+.forum-login-notice, .login-required-notice {
+  border-color: #1876c8;
+  background: #eff7ff;
+  color: #174875;
+}
+
+.registration-notice button {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}

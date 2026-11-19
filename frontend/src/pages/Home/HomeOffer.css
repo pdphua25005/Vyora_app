@@ -1,0 +1,80 @@
+html:has(.home-offer[open]) { overflow: hidden; }
+
+.home-offer {
+  width: min(440px, calc(100vw - 28px), calc((100dvh - 28px) * .8));
+  max-width: none;
+  max-height: none;
+  padding: 0;
+  border: 0;
+  border-radius: 14px;
+  background: #d9f0ff;
+  color: #104477;
+  color-scheme: light;
+  font: 500 16px/1.2 SVN-Gilroy, Arial, sans-serif;
+  text-align: center;
+  box-shadow: 0 18px 55px #081c4960;
+  container-type: inline-size;
+}
+
+.home-offer::backdrop { background: #101c32a3; }
+.home-offer-poster { position: relative; aspect-ratio: 4 / 5; }
+.home-offer-art { display: block; width: 100%; height: 100%; object-fit: cover; }
+.home-offer-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: 1px solid #1c4d7c24;
+  border-radius: 50%;
+  background: #fff;
+  color: #173a60;
+  font: 25px/1 Arial, sans-serif;
+  cursor: pointer;
+}
+
+.home-offer-copy { position: absolute; inset: 5% 8% auto; display: grid; justify-items: center; gap: 2cqw; }
+.home-offer-logo { display: block; width: 25cqw; height: 8cqw; object-fit: contain; }
+.home-offer-campaign {
+  padding: 1.2cqw 3cqw;
+  border-radius: 999px;
+  background: #1763b8;
+  color: #fff;
+  font-size: 3.2cqw;
+  font-weight: 700;
+  letter-spacing: .08em;
+}
+
+.home-offer h2 { margin: 0; font: 700 9cqw/1.03 SVN-Gilroy, Arial, sans-serif; color: #073e79; text-transform: uppercase; letter-spacing: -.025em; }
+.home-offer-prices { display: flex; align-items: center; gap: 2.3cqw; }
+.home-offer-prices strong { font-size: 6.8cqw; color: #1056a2; }
+.home-offer-prices del { font-size: 3.6cqw; color: #38546a; }
+.home-offer-prices span { padding: 1cqw 1.6cqw; border-radius: 6px; background: #ffe8cd; color: #943b09; font-size: 3.5cqw; font-weight: 700; }
+
+.home-offer-link {
+  position: absolute;
+  bottom: 4%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 40px;
+  padding: 7px 22px;
+  border: 1px solid #ffffffc2;
+  border-radius: 999px;
+  background: #075ab3;
+  color: #fff;
+  font: 700 4.1cqw/1.2 SVN-Gilroy, Arial, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  box-shadow: 0 3px 14px #052b6b55;
+}
+
+.home-offer-link:hover { background: #064989; }
+.home-offer :focus-visible { outline: 2px solid #123b76; outline-offset: 3px; }
+.home-offer-link:focus-visible { outline-color: #fff; }

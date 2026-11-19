@@ -1,0 +1,299 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/assets/vyora/fonts/Inter-700.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/assets/vyora/fonts/Montserrat-300.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/assets/vyora/fonts/Montserrat-500.ttf) format('truetype');
+}
+
+@font-face{font-family:SVN-Gilroy;src:url('/assets/vyora/fonts/Gilroy-Regular.otf') format('opentype');font-weight:400;font-display:swap}
+@font-face{font-family:SVN-Gilroy;src:url('/assets/vyora/fonts/Gilroy-Light.otf') format('opentype');font-weight:300;font-display:swap}
+@font-face{font-family:SVN-Gilroy;src:url('/assets/vyora/fonts/Gilroy-Medium.otf') format('opentype');font-weight:500;font-display:swap}
+@font-face{font-family:SVN-Gilroy;src:url('/assets/vyora/fonts/Gilroy-SemiBold.otf') format('opentype');font-weight:600;font-display:swap}
+@font-face{font-family:SVN-Gilroy;src:url('/assets/vyora/fonts/Gilroy-Bold.otf') format('opentype');font-weight:700;font-display:swap}
+.vyora-shell{width:100%;overflow:hidden;background:#f1f1f1;position:relative;text-align:left}
+.vyora-home{position:absolute;top:0;left:max(0px,calc((100% - 1920px)/2));width:1920px;height:5677px;transform-origin:top left;background:#f1f1f1;color:#000;font-family:SVN-Gilroy,Arial,sans-serif;font-size:14px;line-height:normal;letter-spacing:normal;color-scheme:light}
+.vyora-home *{box-sizing:border-box;border-width:0;border-style:solid}
+.vyora-home p{margin:0}
+.vyora-home img{display:block}
+.vyora-home .top-search-card{position:absolute;top:2214px;width:250px;height:300px;background:white;box-shadow:0 4px 4px #0004}
+.vyora-home .top-search-image{width:250px;height:231px;object-fit:cover}
+.vyora-home .top-search-card p{position:absolute;left:7px;top:240px;white-space:pre;font-size:20px;line-height:26px}
+.vyora-home .top-search-sold{position:absolute;left:0;top:214px;width:250px;height:17px;background:#0093ff87;color:white;text-align:center;font-size:12px;line-height:17px}
+.vyora-home .top-search-ribbon{position:absolute;left:-14px;top:-16px;width:58px;height:71px;object-fit:cover}
+.vyora-home .partner-join{position:absolute;left:1407px;top:4647px;width:299px;height:67px;display:flex;align-items:center;justify-content:center;gap:8px;background:linear-gradient(to right,#0289eb,#68bfff);box-shadow:0 4px 4px #0004;border-radius:20px;color:white;text-decoration:none;font-weight:500;font-size:14px}
+.vyora-home .partner-join span{font-size:25px;font-family:Arial}
+.vyora-home .home-search{position:absolute;left:290px;top:49px;width:1282px;height:50px;display:flex;margin:0;padding:4px 5px 4px 0;border:1px solid transparent;border-radius:10px}
+.vyora-home .home-search input{flex:1;min-width:0;padding:0 16px 0 21px;background:white;border:0;border-radius:9px 0 0 9px;outline:none;color:#000;font-family:SVN-Gilroy,sans-serif;font-size:14px}
+.vyora-home .home-search input::placeholder{color:#999;opacity:1}
+.vyora-home .home-search button{flex:0 0 60px;width:60px;background:transparent;cursor:pointer;border-radius:10px;outline:none}
+.vyora-home .home-hit{position:absolute;display:block;padding:0;margin:0;background:transparent;cursor:pointer;border:0}
+.vyora-home .home-hit:focus-visible{outline:2px solid #005fa6;outline-offset:4px}
+.vyora-home .home-category-links{position:absolute;left:97px;top:858px;width:1649px;height:158px;display:grid;grid-template-columns:repeat(10,minmax(0,1fr))}
+.vyora-home .home-category-links a:focus-visible{outline:2px solid #005fa6;outline-offset:-3px}
+.vyora-home .home-search:focus-within{border-color:#005fa6;box-shadow:inset 0 0 0 1px #005fa6;outline:none}
+.vyora-home .home-search input:focus::placeholder{color:transparent}
+.vyora-home .home-login{left:1695px;top:2px;width:90px;height:28px}
+.vyora-home .home-register{left:1610px;top:2px;width:70px;height:28px}
+.vyora-home .home-forum{left:1200px;top:2px;width:90px;height:28px}
+.vyora-home .home-forum-all{left:1630px;top:3190px;width:100px;height:40px}
+.vyora-home .home-suggest{left:1266px;top:616px;width:120px;height:68px;border-radius:10px}
+.vyora-home .home-more{left:771px;top:4122px;width:300px;height:40px}
+
+.vyora-home [data-auth-view="session"] :is([data-node-id="1:236"], [data-node-id="1:238"], [data-node-id="1:250"]) {
+  display: none;
+}
+
+.home-account {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 1592px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  color: white;
+  white-space: nowrap;
+}
+
+.home-account > span { width: 83px; }
+.home-account-control { position: relative; }
+
+.home-account-trigger {
+  display: block;
+  max-width: 180px;
+  height: 32px;
+  overflow: hidden;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font: inherit;
+  cursor: pointer;
+}
+
+.home-account-panel {
+  position: absolute;
+  top: calc(100% + 3px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  background: white;
+  color: #222;
+  border-radius: 2px;
+  box-shadow: 0 3px 12px #0003;
+}
+
+.home-account-panel::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: calc(50% - 8px);
+  border: 8px solid transparent;
+  border-bottom-color: white;
+  border-top: 0;
+}
+
+.home-account-panel :is(a, button) {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 40px;
+  padding: 0 15px;
+  background: transparent;
+  color: inherit;
+  text-decoration: none;
+  font: inherit;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+
+.home-account-panel :is(a, button):hover { background: #f4f7fa; }
+.home-account :is(a, button):focus-visible { outline: 2px solid #005fa6; outline-offset: -2px; }
+.home-account-panel p { padding: 0 12px 8px; white-space: normal; color: #b42318; }
+
+.home-header {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 117px;
+  z-index: 2;
+}
+
+.vyora-home .home-logo {
+  left: 85px;
+  top: 34px;
+  width: 172px;
+  height: 80px;
+}
+
+.vyora-home .home-sale-card { top: 1083px; width: 226px; height: 336px; }
+.vyora-home .home-sale-all { top: 1043px; left: 1625px; width: 105px; height: 33px; }
+
+.vyora-home .home-cart-link {
+  left: 1610px;
+  top: 42px;
+  width: 160px;
+  height: 68px;
+  color: white;
+}
+
+.home-cart-link span {
+  position: absolute;
+  top: 2px;
+  left: 86px;
+  padding: 1px 7px;
+  border-radius: 20px;
+  background: #0289eb;
+}
+
+.home-banner-carousel {
+  overflow: hidden;
+  isolation: isolate;
+  background: #087cd6;
+}
+
+.home-banner-slide {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 450ms ease;
+  pointer-events: none;
+}
+
+.home-banner-slide.is-active { z-index: 1; opacity: 1; pointer-events: auto; }
+
+.home-banner-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 32px 48px;
+  background: linear-gradient(90deg, #00519f68, #00519f00 58%);
+  color: white;
+}
+
+.home-banner-brand {
+  width: 158px;
+  height: 63px;
+  margin-left: -20px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
+.home-banner-title {
+  max-width: 630px;
+  font: 700 51px/1.1 Inter, Arial, sans-serif;
+  letter-spacing: -1px;
+  text-shadow: 0 3px 10px #003d724d;
+}
+
+.home-banner-title span { display: block; color: #80fff4; }
+.home-banner-description { margin-top: 12px; font-size: 20px; font-weight: 600; }
+.home-banner-cta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 17px;
+  padding: 7px 8px 7px 18px;
+  border-radius: 28px;
+  background: white;
+  color: #0865bb;
+  font-size: 19px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.home-banner-cta span { display: grid; place-items: center; width: 31px; height: 31px; border-radius: 50%; background: #087dda; color: white; }
+
+.home-banner-dots {
+  position: absolute;
+  z-index: 2;
+  bottom: 4px;
+  left: 50%;
+  display: flex;
+  transform: translateX(-50%);
+}
+
+.home-banner-dot, .home-banner-play {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.home-banner-dot::before {
+  content: '';
+  width: 11px;
+  height: 11px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background: #123a625e;
+  box-shadow: 0 1px 4px #001c37aa;
+}
+
+.home-banner-dot[aria-current="true"]::before { background: white; }
+.home-banner-play {
+  position: absolute;
+  z-index: 2;
+  right: 12px;
+  bottom: 6px;
+}
+.home-banner-play span { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: #163956bf; font-size: 14px; }
+.home-banner-carousel :is(button, a):focus-visible { outline: 2px solid white; outline-offset: -2px; }
+
+@media (max-width: 700px) {
+  .home-banner-dot, .home-banner-play { width: 85px; height: 62px; }
+  .home-banner-dot::before { width: 19px; height: 19px; }
+  .home-banner-play span { width: 44px; height: 44px; font-size: 22px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-banner-slide { transition: none; }
+}
+
+.vyora-home .home-recommended-card { z-index: 1; top: 16.07%; width: 15.76%; height: 72.78%; border-radius: 8px; }
+
+.vyora-home .home-hot-deal-card { z-index: 1; width: 161px; height: 190px; border-radius: 10px; }
+
+.vyora-home .home-forum-posts{position:absolute;left:119px;top:3270px;width:1608px;height:210px;display:grid;grid-template-columns:repeat(7,210px);gap:23px}
+.vyora-home .home-forum-card{display:flex;flex-direction:column;min-width:0;height:210px;overflow:hidden;border-radius:20px;background:#fff;box-shadow:0 4px 4px #0004}
+.vyora-home .home-forum-byline{display:flex;align-items:center;gap:8px;padding:0 17px;height:69px;flex:none;background:linear-gradient(to right,#0289eb,#4ab2ff);color:#fff}
+.vyora-home .home-forum-avatar{display:grid;place-items:center;flex:0 0 45px;height:45px;overflow:hidden;border-radius:50%;background:#e7f5ff;color:#0565ac;font-size:19px;font-weight:700}
+.vyora-home .home-forum-avatar img{width:100%;height:100%;object-fit:cover}
+.vyora-home .home-forum-byline div{display:grid;gap:2px;min-width:0}
+.vyora-home .home-forum-byline strong{font-size:14px;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.vyora-home .home-forum-byline div span{font-size:12px}
+.vyora-home .home-forum-summary{min-width:0;padding:8px 10px 0}
+.vyora-home .home-forum-title,.vyora-home .home-forum-excerpt{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere}
+.vyora-home .home-forum-title{-webkit-line-clamp:2;border-left:1px solid #58b4fa;padding-left:8px;line-height:15px;font-size:12px;font-weight:600;color:#006ac0}
+.vyora-home .home-forum-excerpt{-webkit-line-clamp:4;margin-top:4px;line-height:15px;font-size:11px;color:#374151}
+.vyora-home .home-forum-card-footer{display:flex;align-items:center;justify-content:space-between;gap:6px;padding:4px 12px 11px;margin-top:auto;font-size:12px}
+.vyora-home .home-forum-count{display:inline-flex;align-items:center;gap:5px;padding:2px 8px;border-radius:10px;background:#e6f4ff;color:#0961a9;font-weight:600}
+.vyora-home .home-forum-count-icon{width:12px;height:9px;border:1px solid currentColor;border-radius:3px}
+.vyora-home .home-forum-card-footer a,.vyora-home .home-forum-state a{color:#006ac0;text-decoration:none}
+.vyora-home .home-forum-card-footer a:hover,.vyora-home .home-forum-state a:hover{text-decoration:underline}
+.vyora-home .home-forum-card-footer a:focus-visible{outline:2px solid #005fa6;outline-offset:2px}
+.vyora-home .home-forum-state{grid-column:1/-1;display:flex;align-items:center;justify-content:center;gap:10px;color:#374151;font-size:16px}
+.vyora-home .home-forum-state button{border-radius:7px;padding:5px 10px;background:#e6f4ff;color:#0961a9;font:inherit;cursor:pointer}

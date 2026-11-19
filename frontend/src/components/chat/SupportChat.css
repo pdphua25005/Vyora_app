@@ -1,0 +1,99 @@
+.support-widget,.support-inbox{font:500 14px/1.45 SVN-Gilroy,Arial,sans-serif;color:#163750;color-scheme:light;letter-spacing:normal;text-align:left}
+.support-widget *,.support-inbox *{box-sizing:border-box}
+.support-widget{position:fixed;right:18px;bottom:24px;z-index:8}
+.support-launchers{display:grid;gap:12px;justify-items:center}
+.support-round{display:grid;place-items:center;width:56px;height:56px;border:3px solid #fff;border-radius:50%;box-shadow:0 3px 12px #164b842c;background:linear-gradient(150deg,#5caaff,#0959dc);color:white;text-decoration:none;font:700 14px/1 Arial,sans-serif;cursor:pointer}
+.support-phone{font-size:29px;background:radial-gradient(#2c3489 45%,#929bd8 47%,#f5f7ff 68%);outline:1px solid #a9b1df;outline-offset:3px}
+.support-chat{background:linear-gradient(145deg,#289aff,#0367b5)}
+.support-panel{position:absolute;bottom:0;right:74px;width:min(365px,calc(100vw - 108px));height:min(520px,calc(100dvh - 36px));display:flex;flex-direction:column;background:#fff;border:1px solid #cbdfee;border-radius:16px;overflow:hidden;box-shadow:0 12px 55px #133e6745}
+.support-panel>header{display:flex;align-items:center;justify-content:space-between;padding:15px;background:linear-gradient(120deg,#1272d4,#329bfa);color:#fff}
+.support-panel>header div{display:grid;gap:3px}.support-panel>header span{font-size:12px}
+.support-panel>header button{border:0;background:transparent;color:#fff;font-size:25px;cursor:pointer}
+.support-thread{display:flex;flex-direction:column;min-height:0;flex:1}
+.support-connection{margin:0;padding:5px 12px;font-size:12px;color:#477083;background:#f3f9ff}
+.support-messages{flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;padding:12px;display:flex;flex-direction:column;gap:10px;background:#f6faff}
+.support-message{align-self:flex-start;max-width:88%;padding:8px 11px;background:white;border:1px solid #e0eaf2;border-radius:12px;overflow-wrap:anywhere}
+.support-message p{margin:4px 0;white-space:pre-wrap}.support-message strong{font-size:12px}.support-message time{font-size:10px;color:#536f84}
+.support-mine{align-self:flex-end;background:#e1f0ff;border-color:#c4dff6}
+.support-compose{display:flex;gap:7px;padding:10px;background:white;border-top:1px solid #d8e6f2}
+.support-compose textarea{flex:1;min-width:0;resize:vertical;max-height:110px;border:1px solid #b6d3ec;border-radius:8px;padding:8px;font:inherit;color:#163750;background:white}
+.support-compose button,.support-welcome a{border:0;background:#1269b8;color:#fff;border-radius:8px;padding:8px 13px;font:inherit;text-decoration:none;cursor:pointer}
+.support-compose button:disabled{opacity:.5;cursor:default}
+.support-welcome{padding:18px;color:#496679}.support-welcome a{display:inline-block;margin-top:12px}
+.support-text-button{border:0;background:none;color:#1269b8;font:inherit;cursor:pointer}
+.support-error{padding:8px;margin:0;background:#fff2f2;color:#9b2c3d;font-size:12px}
+.support-contact{position:absolute;right:74px;bottom:0;width:240px;padding:13px;background:white;border:1px solid #bad6ed;border-radius:12px;box-shadow:0 8px 24px #1234}
+.support-contact button{border:0;background:none;color:#175a91;cursor:pointer;float:right;font-size:20px}
+.support-inbox{display:grid;grid-template-columns:minmax(190px,30%) minmax(0,1fr);height:620px;max-height:80dvh;overflow:hidden}
+.support-conversations{overflow:auto;border-right:1px solid #d8e6f2;padding:12px}
+.support-conversations h2,.support-admin-thread>h2{padding:12px}
+.support-conversations>button{display:grid;gap:4px;width:100%;text-align:left;padding:11px;border:0;border-bottom:1px solid #e5edf6;background:white;color:#163750;cursor:pointer}
+.support-conversations>button[aria-pressed=true]{background:#e1f0ff}
+.support-conversations>button span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px;color:#526b83}
+.support-admin-thread{display:flex;flex-direction:column;min-height:0;min-width:0}
+.support-widget :focus-visible,.support-inbox :focus-visible{outline:2px solid #1161a8;outline-offset:2px}
+@media(max-width:600px){.support-widget{right:10px;bottom:12px}.support-round{width:48px;height:48px}.support-panel{right:58px;width:calc(100vw - 86px);height:min(500px,calc(100dvh - 30px))}.support-inbox{grid-template-columns:1fr;height:auto;max-height:none}.support-conversations{max-height:220px}.support-admin-thread{height:480px}.support-contact{right:58px}}
+
+/* Hiệu ứng cho ba nút liên hệ. */
+.support-round {
+  position: relative;
+  isolation: isolate;
+  transition: translate .2s ease, scale .2s ease, box-shadow .2s ease;
+}
+.support-round::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  z-index: -1;
+  border: 2px solid #409cff;
+  border-radius: inherit;
+  opacity: 0;
+  pointer-events: none;
+  animation: support-ring 3.6s ease-out infinite;
+}
+.support-phone::before { border-color: #939bda; animation-delay: 1.2s; }
+.support-chat::before { animation-delay: 2.4s; }
+.support-phone { animation: support-ringing 4.8s ease-in-out infinite; }
+.support-chat { animation: support-bounce 4.8s ease-in-out 1.8s infinite; }
+.support-round:focus-visible,
+.support-round[aria-expanded="true"] {
+  translate: 0 -3px;
+  box-shadow: 0 6px 20px #1666bc55;
+}
+.support-chat[aria-expanded="true"] { animation: none; }
+.support-chat[aria-expanded="true"]::before { animation: none; }
+.support-round:active { scale: .92; }
+.support-panel { animation: support-panel-in .22s ease-out; transform-origin: bottom right; }
+
+@media (hover: hover) {
+  .support-round:hover {
+    translate: 0 -4px;
+    scale: 1.07;
+    box-shadow: 0 7px 22px #1666bc55;
+    animation-play-state: paused;
+  }
+}
+
+@keyframes support-ring {
+  0% { transform: scale(.95); opacity: .65; }
+  45%, 100% { transform: scale(1.35); opacity: 0; }
+}
+@keyframes support-ringing {
+  0%, 4%, 8%, 12%, 16%, 100% { transform: rotate(0); }
+  2%, 10% { transform: rotate(-13deg); }
+  6%, 14% { transform: rotate(13deg); }
+}
+@keyframes support-bounce {
+  0%, 10%, 20%, 100% { transform: translateY(0); }
+  5% { transform: translateY(-5px); }
+  15% { transform: translateY(-2px); }
+}
+@keyframes support-panel-in {
+  from { opacity: 0; transform: translateY(10px) scale(.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .support-round,
+  .support-round::before,
+  .support-panel { animation: none; transition: none; }
+}

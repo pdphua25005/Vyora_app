@@ -1,0 +1,608 @@
+.vyora-home .v0{background:#fff;position:relative;width:100%;height:100%}
+.vyora-home .v1{display:contents;position:relative;width:100%;height:100%}
+.vyora-home .v2{position:absolute;background:#fff;height:209px;left:calc(18.75% + 96px);border-radius:20px;box-shadow:1px 8px 15.6px 0px rgba(0,0,0,0.25);top:545px;width:950px}
+.vyora-home .v3{position:absolute;display:flex;height:160px;align-items:center;justify-content:center;left:calc(37.5% + 65px);top:571px;width:0}
+.vyora-home .v4{flex:none;transform:rotate(90deg)}
+.vyora-home .v5{height:0;position:relative;width:160px}
+.vyora-home .v6{position:absolute;inset:-1px 0 0 0}
+.vyora-home .v7{display:block;max-width:none;width:100%;height:100%}
+.vyora-home .v8{position:absolute;display:flex;height:160px;align-items:center;justify-content:center;left:calc(62.5% + 49px);top:571px;width:0}
+.vyora-home .v9{position:absolute;display:contents;left:calc(25% + 4px);top:576px}
+.vyora-home .v10{position:absolute;left:calc(37.5% + 18px);width:24px;height:24px;top:586px}
+.vyora-home .v11{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%}
+.vyora-home .v12{overflow-wrap:break-word;position:absolute;font-family:"Montserrat",Arial,sans-serif;font-weight:500;font-weight:500;line-height:normal;left:calc(25% + 34px);font-size:20px;color:#000;top:596px;white-space:nowrap}
+.vyora-home .v13{overflow-wrap:break-word;position:absolute;font-family:"Montserrat",Arial,sans-serif;font-weight:300;font-weight:300;line-height:normal;left:calc(25% + 34px);font-size:14px;color:#000;top:576px;white-space:nowrap}
+.vyora-home .v14{position:absolute;left:calc(25% + 4px);width:20px;height:20px;top:576px}
+.vyora-home .v15{position:absolute;display:contents;left:calc(25% + 4px);top:668px}
+.vyora-home .v16{position:absolute;left:calc(37.5% + 18px);width:24px;height:24px;top:678px}
+.vyora-home .v17{overflow-wrap:break-word;position:absolute;font-family:"Montserrat",Arial,sans-serif;font-weight:500;font-weight:500;line-height:normal;left:calc(25% + 34px);font-size:20px;color:#000;top:688px;white-space:nowrap}
+.vyora-home .v18{overflow-wrap:break-word;position:absolute;font-family:"Montserrat",Arial,sans-serif;font-weight:300;font-weight:300;line-height:normal;left:calc(25% + 34px);font-size:14px;color:#000;top:668px;white-space:nowrap}
+.vyora-home .v19{position:absolute;left:calc(25% + 4px);width:20px;height:20px;top:668px}
+.vyora-home .v20{position:absolute;display:contents;left:calc(37.5% + 83px);top:572px}
+.vyora-home .v21{overflow-wrap:break-word;position:absolute;font-family:"Montserrat",Arial,sans-serif;font-weight:500;font-weight:500;line-height:normal;left:calc(43.75% + 6px);font-size:20px;color:#000;top:596px;white-space:nowrap}
+.vyora-home .v22{overflow-wrap:break-word;position:absolute;font-family:"Montserrat",Arial,sans-serif;font-weight:300;font-weight:300;line-height:normal;left:calc(43.75% + 5px);font-size:14px;color:#000;top:576px;white-space:nowrap}
+.vyora-home .v23{position:absolute;left:calc(62.5% + 8px);width:24px;height:24px;top:586px}
+.vyora-home .v24{position:absolute;left:calc(37.5% + 83px);width:24px;height:24px;top:572px}
+.vyora-home .v25{position:absolute;display:contents;left:calc(37.5% + 83px);top:668px}
+.vyora-home .v26{overflow-wrap:break-word;position:absolute;font-family:"Montserrat",Arial,sans-serif;font-weight:500;font-weight:500;line-height:normal;left:calc(43.75% + 6px);font-size:20px;color:#000;top:692px;white-space:nowrap}
+.vyora-home .v27{overflow-wrap:break-word;position:absolute;font-family:"Montserrat",Arial,sans-serif;font-weight:300;font-weight:300;line-height:normal;left:calc(43.75% + 5px);font-size:14px;color:#000;top:672px;white-space:nowrap}
+.vyora-home .v28{position:absolute;left:calc(62.5% + 8px);width:24px;height:24px;top:682px}
+.vyora-home .v29{position:absolute;left:calc(37.5% + 83px);width:24px;height:24px;top:668px}
+.vyora-home .v30{position:absolute;display:contents;left:calc(62.5% + 66px);top:616px}
+.vyora-home .v31{position:absolute;height:68px;left:calc(62.5% + 66px);border-radius:10px;top:616px;width:120px;background:linear-gradient(to right,#038cf0,#3eacff)}
+.vyora-home .v32{overflow-wrap:break-word;position:absolute;font-family:"Montserrat",Arial,sans-serif;font-weight:500;font-weight:500;height:26.537px;line-height:normal;left:calc(62.5% + 77px);font-size:14px;color:#fff;top:643px;width:107px}
+.vyora-home .v33{position:absolute;background:#0289eb;height:32px;left:0;top:0;width:1920px}
+.vyora-home .v34{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:normal;left:calc(6.25% - 16px);font-style:normal;font-size:14px;color:#fff;top:9px;white-space:nowrap}
+.vyora-home .v35{position:absolute;display:flex;height:20px;align-items:center;justify-content:center;left:calc(18.75% + 39px);top:6px;width:0}
+.vyora-home .v36{height:0;position:relative;width:20px}
+.vyora-home .v37{position:absolute;display:flex;height:20px;align-items:center;justify-content:center;left:calc(25% + 48px);top:6px;width:0}
+.vyora-home .v38{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:normal;left:calc(18.75% + 71px);font-style:normal;font-size:14px;color:#fff;top:9px;white-space:nowrap}
+.vyora-home .v39{position:absolute;left:calc(18.75% + 55px);width:12px;height:12px;top:10px}
+.vyora-home .v40{position:absolute;display:contents;left:calc(25% + 64px);top:9px}
+.vyora-home .v41{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:normal;left:calc(25% + 64px);font-style:normal;font-size:14px;color:#fff;top:10px;white-space:nowrap}
+.vyora-home .v42{position:absolute;height:14px;left:31.51%;right:67.76%;top:9px}
+.vyora-home .v43{position:absolute;left:calc(31.25% + 39px);width:14px;height:14px;top:9px}
+.vyora-home .v44{position:absolute;left:calc(31.25% + 73px);width:14px;height:14px;top:9px}
+.vyora-home .v45{position:absolute;left:calc(31.25% + 107px);width:14px;height:14px;top:9px}
+.vyora-home .v46{position:absolute;display:contents;left:calc(62.5% + 98px);top:9px}
+.vyora-home .v47{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:normal;left:calc(68.75% - 3px);font-style:normal;font-size:14px;color:#fff;top:9px;white-space:nowrap}
+.vyora-home .v48{position:absolute;left:calc(62.5% + 98px);width:12px;height:12px;top:10px}
+.vyora-home .v49{position:absolute;display:contents;left:calc(62.5% + 7px);top:9px}
+.vyora-home .v50{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:normal;left:calc(62.5% + 26px);font-style:normal;font-size:14px;color:#fff;top:9px;white-space:nowrap}
+.vyora-home .v51{position:absolute;left:calc(62.5% + 7px);width:12px;height:12px;top:10px}
+.vyora-home .v52{position:absolute;display:contents;left:calc(68.75% + 75px);top:9px}
+.vyora-home .v53{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:normal;left:calc(68.75% + 94px);font-style:normal;font-size:14px;color:#fff;top:9px;white-space:nowrap}
+.vyora-home .v54{position:absolute;left:calc(68.75% + 75px);width:12px;height:12px;top:10px}
+.vyora-home .v55{position:absolute;display:contents;left:calc(75% + 37px);top:9px}
+.vyora-home .v56{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:normal;left:calc(75% + 56px);font-style:normal;font-size:14px;color:#fff;top:9px;white-space:nowrap}
+.vyora-home .v57{position:absolute;left:calc(75% + 37px);width:12px;height:12px;top:10px}
+.vyora-home .v58{position:absolute;left:81.25%;width:12px;height:12px;top:10px}
+.vyora-home .v59{position:absolute;display:contents;left:calc(81.25% + 57px);top:6px}
+.vyora-home .v60{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:normal;left:calc(81.25% + 57px);font-style:normal;font-size:14px;color:#fff;top:9px;white-space:nowrap}
+.vyora-home .v61{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:normal;left:calc(87.5% + 22px);font-style:normal;font-size:14px;color:#fff;top:9px;white-space:nowrap}
+.vyora-home .v62{position:absolute;display:flex;height:20px;align-items:center;justify-content:center;left:calc(87.5% + 7px);top:6px;width:0}
+.vyora-home .v63{background:#fff;position:relative;box-shadow:0px 4px 4px 0px rgba(0,95,166,0.2);width:100%;height:100%}
+.vyora-home .v64{position:relative;width:100%;height:100%}
+.vyora-home .v65{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;width:100%;height:100%}
+.vyora-home .v66{background:#fff;border-width:1px;border-color:#0289eb;border-style:solid;overflow:clip;position:relative;border-radius:10px;width:100%;height:100%}
+.vyora-home .v67{overflow-wrap:break-word;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:normal;font-style:normal;position:relative;width:100%;height:100%;font-size:14px;color:rgba(0,0,0,0.5);white-space:nowrap}
+.vyora-home .v68{background:#0289eb;overflow:clip;position:relative;border-radius:10px;width:100%;height:100%}
+.vyora-home .v69{overflow-wrap:break-word;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:normal;font-style:normal;position:relative;width:100%;height:100%;color:#0289eb;font-size:14px;white-space:nowrap}
+.vyora-home .v70{position:absolute;height:368px;left:calc(6.25% - 19px);top:152px;width:1092px}
+.vyora-home .v71{position:absolute;height:182px;left:62.5%;top:151px;width:546px}
+.vyora-home .v72{position:absolute;height:182px;left:62.5%;top:338px;width:546px}
+.vyora-home .v73{background:#0289eb;position:relative;width:100%;height:100%}
+.vyora-home .v74{overflow-wrap:break-word;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;font-style:normal;position:relative;width:100%;height:100%;font-size:15px;color:#fff;white-space:nowrap}
+.vyora-home .v75{align-content:stretch;display:flex;align-items:flex-start;position:relative;width:100%;height:100%}
+.vyora-home .v76{border-color:rgba(2,137,235,0.1);border-right-width:1px;border-style:solid;align-content:stretch;display:flex;flex-direction:column;height:158px;align-items:center;overflow:clip;padding-top:10px;position:relative;flex-shrink:0;width:164.9px}
+.vyora-home .v77{position:relative;flex-shrink:0;width:110px;height:110px}
+.vyora-home .v78{align-content:stretch;display:flex;flex-direction:column;height:158px;align-items:center;overflow:clip;padding-top:10px;position:relative;flex-shrink:0;width:164.9px}
+.vyora-home .v79{overflow-wrap:break-word;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;font-style:normal;position:relative;width:100%;height:100%;color:#0289eb;font-size:12px;white-space:nowrap}
+.vyora-home .v80{position:absolute;background:#fff;height:417px;left:96px;top:1032px;width:1652px}
+.vyora-home .v81{position:absolute;background:#0289eb;height:48px;left:96px;top:1032px;width:1652px}
+.vyora-home .v82{position:absolute;display:contents;left:calc(12.5% + 55px);top:1047px}
+.vyora-home .v83{position:absolute;background:#fff;left:calc(12.5% + 55px);border-radius:2px;width:20px;height:20px;top:1047px}
+.vyora-home .v84{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:normal;left:calc(12.5% + 60px);font-style:normal;color:#0289eb;font-size:10px;top:1053px;white-space:nowrap}
+.vyora-home .v85{position:absolute;height:43px;left:calc(6.25% - 11px);top:1034px;width:130px}
+.vyora-home .v86{position:absolute;display:contents;left:calc(12.5% + 7px);top:1047px}
+.vyora-home .v87{position:absolute;background:#fff;left:calc(12.5% + 7px);border-radius:2px;width:20px;height:20px;top:1047px}
+.vyora-home .v88{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:normal;left:calc(12.5% + 11px);font-style:normal;color:#0289eb;font-size:10px;top:1053px;white-space:nowrap}
+.vyora-home .v89{position:absolute;display:contents;left:calc(12.5% + 31px);top:1047px}
+.vyora-home .v90{position:absolute;background:#fff;left:calc(12.5% + 31px);border-radius:2px;width:20px;height:20px;top:1047px}
+.vyora-home .v91{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:normal;left:calc(12.5% + 36px);font-style:normal;color:#0289eb;font-size:10px;top:1053px;white-space:nowrap}
+.vyora-home .v92{position:absolute;display:contents;left:calc(6.25% + 13px);top:1083px}
+.vyora-home .v93{position:absolute;display:contents;left:calc(6.25% + 30px);top:1402px}
+.vyora-home .v94{position:absolute;background:rgba(3,149,255,0.16);height:17px;left:calc(6.25% + 30px);border-radius:10px;top:1402px;width:209px}
+.vyora-home .v95{position:absolute;background:rgba(3,149,255,0.75);height:17px;left:calc(6.25% + 30px);border-radius:10px;top:1402px;width:61px}
+.vyora-home .v96{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:normal;left:calc(6.25% + 96px);font-style:normal;font-size:10px;color:#fff;top:1407px;white-space:nowrap}
+.vyora-home .v97{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:normal;left:calc(6.25% + 93px);font-style:normal;font-size:18px;color:red;top:1370px;white-space:nowrap}
+.vyora-home .v98{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(6.25% + 44px);font-style:normal;color:#008afc;font-size:12px;top:1345px;white-space:nowrap}
+.vyora-home .v99{position:absolute;height:240px;left:calc(6.25% + 30px);border-radius:10px;top:1098px;width:209px}
+.vyora-home .v100{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;border-radius:10px;width:100%;height:100%}
+.vyora-home .v101{position:absolute;display:contents;left:calc(12.5% + 6px);top:1083px}
+.vyora-home .v102{position:absolute;background:#fff;border-color:#0289eb;border-style:solid;border-top-width:1px;height:20px;left:calc(12.5% + 59px);border-bottom-left-radius:10px;border-top-right-radius:10px;top:1098px;width:60px}
+.vyora-home .v103{position:absolute;height:46px;left:calc(12.5% + 6px);top:1083px;width:83px}
+.vyora-home .v104{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:600;line-height:normal;left:calc(12.5% + 84px);font-style:normal;color:#0189fc;font-size:12px;top:1103px;white-space:nowrap}
+.vyora-home .v105{position:absolute;display:contents;left:calc(6.25% + 20px);top:1118px}
+.vyora-home .v106{position:absolute;height:37px;left:calc(6.25% + 20px);top:1118px;width:66.45px}
+.vyora-home .v107{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;height:10px;line-height:normal;left:calc(6.25% + 31px);font-style:normal;font-size:11px;color:#fff;top:1129px;width:44px}
+.vyora-home .v108{position:absolute;height:41px;left:calc(6.25% + 13px);top:1304px;width:83px}
+.vyora-home .v109{position:absolute;display:contents;left:calc(18.75% + 41px);top:1083px}
+.vyora-home .v110{position:absolute;display:contents;left:calc(18.75% + 57px);top:1401px}
+.vyora-home .v111{position:absolute;background:rgba(3,149,255,0.16);height:17px;left:calc(18.75% + 57px);border-radius:10px;top:1401px;width:209px}
+.vyora-home .v112{position:absolute;height:17px;left:calc(18.75% + 57px);border-radius:10px;top:1401px;width:165px;background:linear-gradient(to right,63.462%,rgba(215,238,255,0.75))}
+.vyora-home .v113{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:normal;left:calc(25% + 16px);font-style:normal;font-size:10px;color:#fff;top:1405px;white-space:nowrap}
+.vyora-home .v114{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(18.75% + 91px);font-style:normal;color:#008afc;font-size:12px;top:1345px;white-space:nowrap}
+.vyora-home .v115{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:normal;left:calc(25% + 11px);font-style:normal;font-size:18px;color:red;top:1370px;white-space:nowrap}
+.vyora-home .v116{position:absolute;height:240px;left:calc(18.75% + 58px);border-radius:10px;top:1098px;width:209px}
+.vyora-home .v117{position:absolute;display:contents;left:calc(25% + 34px);top:1083px}
+.vyora-home .v118{position:absolute;background:#fff;border-color:#0289eb;border-style:solid;border-top-width:1px;height:20px;left:calc(25% + 87px);border-bottom-left-radius:10px;border-top-right-radius:10px;top:1098px;width:60px}
+.vyora-home .v119{position:absolute;height:46px;left:calc(25% + 34px);top:1083px;width:83px}
+.vyora-home .v120{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:600;line-height:normal;left:calc(31.25% - 8px);font-style:normal;color:#0189fc;font-size:12px;top:1103px;white-space:nowrap}
+.vyora-home .v121{position:absolute;display:contents;left:calc(18.75% + 48px);top:1118px}
+.vyora-home .v122{position:absolute;height:37px;left:calc(18.75% + 48px);top:1118px;width:66.45px}
+.vyora-home .v123{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;height:10px;line-height:normal;left:calc(18.75% + 59px);font-style:normal;font-size:11px;color:#fff;top:1129px;width:44px}
+.vyora-home .v124{position:absolute;height:41px;left:calc(18.75% + 41px);top:1304px;width:83px}
+.vyora-home .v125{position:absolute;display:contents;left:calc(43.75% + 94px);top:1083px}
+.vyora-home .v126{position:absolute;display:contents;left:calc(50% - 9px);top:1401px}
+.vyora-home .v127{position:absolute;background:rgba(3,149,255,0.16);height:17px;left:calc(50% - 9px);border-radius:10px;top:1401px;width:209px}
+.vyora-home .v128{position:absolute;height:17px;left:calc(50% - 9px);border-radius:10px;top:1401px;width:71px;background:linear-gradient(to right,63.462%,rgba(215,238,255,0.75))}
+.vyora-home .v129{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:normal;left:calc(50% + 54px);font-style:normal;font-size:10px;color:#fff;top:1405px;white-space:nowrap}
+.vyora-home .v130{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(50% + 5px);font-style:normal;color:#008afc;font-size:12px;top:1345px;white-space:nowrap}
+.vyora-home .v131{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:normal;left:calc(50% + 59px);font-style:normal;font-size:18px;color:red;top:1370px;white-space:nowrap}
+.vyora-home .v132{position:absolute;height:240px;left:calc(50% - 9px);border-radius:10px;top:1098px;width:209px}
+.vyora-home .v133{position:absolute;display:contents;left:calc(50% + 87px);top:1083px}
+.vyora-home .v134{position:absolute;background:#fff;border-color:#0289eb;border-style:solid;border-top-width:1px;height:20px;left:calc(56.25% + 20px);border-bottom-left-radius:10px;border-top-right-radius:10px;top:1098px;width:60px}
+.vyora-home .v135{position:absolute;height:46px;left:calc(50% + 87px);top:1083px;width:83px}
+.vyora-home .v136{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:600;line-height:normal;left:calc(56.25% + 45px);font-style:normal;color:#0189fc;font-size:12px;top:1103px;white-space:nowrap}
+.vyora-home .v137{position:absolute;height:41px;left:calc(43.75% + 94px);top:1304px;width:83px}
+.vyora-home .v138{position:absolute;display:contents;left:calc(75% + 27px);top:1083px}
+.vyora-home .v139{position:absolute;display:contents;left:calc(75% + 44px);top:1401px}
+.vyora-home .v140{position:absolute;background:rgba(3,149,255,0.16);height:17px;left:calc(75% + 44px);border-radius:10px;top:1401px;width:209px}
+.vyora-home .v141{position:absolute;height:17px;left:calc(75% + 44px);border-radius:10px;top:1401px;width:165px;background:linear-gradient(to right,63.462%,rgba(215,238,255,0.75))}
+.vyora-home .v142{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:normal;left:calc(81.25% + 3px);font-style:normal;font-size:10px;color:#fff;top:1405px;white-space:nowrap}
+.vyora-home .v143{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(75% + 73px);font-style:normal;color:#008afc;font-size:12px;top:1345px;white-space:nowrap}
+.vyora-home .v144{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:normal;left:calc(75% + 109px);font-style:normal;font-size:18px;color:red;top:1370px;white-space:nowrap}
+.vyora-home .v145{position:absolute;height:240px;left:calc(75% + 44px);border-radius:10px;top:1098px;width:209px}
+.vyora-home .v146{position:absolute;display:contents;left:calc(81.25% + 20px);top:1083px}
+.vyora-home .v147{position:absolute;background:#fff;border-color:#0289eb;border-style:solid;border-top-width:1px;height:20px;left:calc(81.25% + 73px);border-bottom-left-radius:10px;border-top-right-radius:10px;top:1098px;width:60px}
+.vyora-home .v148{position:absolute;height:46px;left:calc(81.25% + 20px);top:1083px;width:83px}
+.vyora-home .v149{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:600;line-height:normal;left:calc(81.25% + 98px);font-style:normal;color:#0189fc;font-size:12px;top:1103px;white-space:nowrap}
+.vyora-home .v150{position:absolute;height:41px;left:calc(75% + 27px);top:1304px;width:83px}
+.vyora-home .v151{position:absolute;display:contents;left:calc(31.25% + 66px);top:1083px}
+.vyora-home .v152{position:absolute;display:contents;left:calc(31.25% + 83px);top:1401px}
+.vyora-home .v153{position:absolute;background:rgba(3,149,255,0.16);height:17px;left:calc(31.25% + 83px);border-radius:10px;top:1401px;width:209px}
+.vyora-home .v154{position:absolute;height:17px;left:calc(31.25% + 83px);border-radius:10px;top:1401px;width:165px;background:linear-gradient(to right,63.462%,rgba(215,238,255,0.75))}
+.vyora-home .v155{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:normal;left:calc(37.5% + 26px);font-style:normal;font-size:10px;color:#fff;top:1405px;white-space:nowrap}
+.vyora-home .v156{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(37.5% + 3px);font-style:normal;color:#008afc;font-size:12px;top:1345px;white-space:nowrap}
+.vyora-home .v157{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:normal;left:calc(37.5% + 27px);font-style:normal;font-size:18px;color:red;top:1370px;white-space:nowrap}
+.vyora-home .v158{position:absolute;height:240px;left:calc(31.25% + 83px);border-radius:10px;top:1098px;width:209px}
+.vyora-home .v159{position:absolute;display:contents;left:calc(37.5% + 59px);top:1083px}
+.vyora-home .v160{position:absolute;background:#fff;border-color:#0289eb;border-style:solid;border-top-width:1px;height:20px;left:calc(43.75% - 8px);border-bottom-left-radius:10px;border-top-right-radius:10px;top:1098px;width:60px}
+.vyora-home .v161{position:absolute;height:46px;left:calc(37.5% + 59px);top:1083px;width:83px}
+.vyora-home .v162{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:600;line-height:normal;left:calc(43.75% + 17px);font-style:normal;color:#0189fc;font-size:12px;top:1103px;white-space:nowrap}
+.vyora-home .v163{position:absolute;display:contents;left:calc(31.25% + 73px);top:1118px}
+.vyora-home .v164{position:absolute;height:37px;left:calc(31.25% + 73px);top:1118px;width:66.45px}
+.vyora-home .v165{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;height:10px;line-height:normal;left:calc(31.25% + 84px);font-style:normal;font-size:11px;color:#fff;top:1129px;width:44px}
+.vyora-home .v166{position:absolute;height:41px;left:calc(31.25% + 66px);top:1304px;width:83px}
+.vyora-home .v167{position:absolute;left:calc(31.25% + 74px);width:41px;height:41px;top:1384px}
+.vyora-home .v168{position:absolute;display:contents;left:calc(62.5% + 2px);top:1083px}
+.vyora-home .v169{position:absolute;display:contents;left:calc(62.5% + 19px);top:1401px}
+.vyora-home .v170{position:absolute;background:rgba(3,149,255,0.16);height:17px;left:calc(62.5% + 19px);border-radius:10px;top:1401px;width:209px}
+.vyora-home .v171{position:absolute;height:17px;left:calc(62.5% + 19px);border-radius:10px;top:1401px;width:196px;background:linear-gradient(to right,63.462%,rgba(215,238,255,0.75))}
+.vyora-home .v172{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:normal;left:calc(62.5% + 82px);font-style:normal;font-size:10px;color:#fff;top:1405px;white-space:nowrap}
+.vyora-home .v173{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(62.5% + 46px);font-style:normal;color:#008afc;font-size:12px;top:1345px;white-space:nowrap}
+.vyora-home .v174{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:normal;left:calc(62.5% + 86px);font-style:normal;font-size:18px;color:red;top:1370px;white-space:nowrap}
+.vyora-home .v175{position:absolute;height:240px;left:calc(62.5% + 19px);border-radius:10px;top:1098px;width:209px}
+.vyora-home .v176{position:absolute;display:contents;left:calc(68.75% - 5px);top:1083px}
+.vyora-home .v177{position:absolute;background:#fff;border-color:#0289eb;border-style:solid;border-top-width:1px;height:20px;left:calc(68.75% + 48px);border-bottom-left-radius:10px;border-top-right-radius:10px;top:1098px;width:60px}
+.vyora-home .v178{position:absolute;height:46px;left:calc(68.75% - 5px);top:1083px;width:83px}
+.vyora-home .v179{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:600;line-height:normal;left:calc(68.75% + 73px);font-style:normal;color:#0189fc;font-size:12px;top:1103px;white-space:nowrap}
+.vyora-home .v180{position:absolute;display:contents;left:calc(62.5% + 9px);top:1118px}
+.vyora-home .v181{position:absolute;height:37px;left:calc(62.5% + 9px);top:1118px;width:66.45px}
+.vyora-home .v182{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;height:10px;line-height:normal;left:calc(62.5% + 20px);font-style:normal;font-size:11px;color:#fff;top:1129px;width:44px}
+.vyora-home .v183{position:absolute;height:41px;left:calc(62.5% + 2px);top:1304px;width:83px}
+.vyora-home .v184{position:absolute;left:calc(62.5% + 10px);width:41px;height:41px;top:1384px}
+.vyora-home .v185{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;height:8px;line-height:normal;left:calc(81.25% + 76px);font-style:normal;font-size:14px;color:#fff;top:1052px;width:73px}
+.vyora-home .v186{position:absolute;left:calc(87.5% + 35px);width:10px;height:10px;top:1054px}
+.vyora-home .v187{position:absolute;display:contents;left:calc(87.5% + 35px);top:1054px}
+.vyora-home .v188{position:relative;width:8px;height:8px}
+.vyora-home .v189{position:absolute;height:110px;left:96px;top:1461px;width:1653px}
+.vyora-home .v190{position:absolute;background:#fff;height:500px;left:96px;top:1585px;width:1653px}
+.vyora-home .v191{position:absolute;background:#fff;border-color:rgba(2,137,235,0.22);border-bottom-width:1px;border-style:solid;height:70px;left:96px;opacity:.1;top:1583px;width:1653px}
+.vyora-home .v192{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:normal;left:calc(6.25% + 6px);font-style:normal;color:#0289eb;font-size:18px;top:1612px;white-space:nowrap}
+.vyora-home .v193{position:absolute;display:flex;height:40px;align-items:center;justify-content:center;left:calc(12.5% + 59px);top:1598px;width:0}
+.vyora-home .v194{height:0;position:relative;width:40px}
+.vyora-home .v195{position:absolute;left:calc(12.5% + 87px);width:15px;height:15px;top:1612px}
+.vyora-home .v196{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(18.75% - 11px);font-style:normal;color:#0289eb;font-size:14px;top:1613px;white-space:nowrap}
+.vyora-home .v197{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(25% + 103px);font-style:normal;color:#0289eb;font-size:14px;top:1613px;white-space:nowrap}
+.vyora-home .v198{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(37.5% + 47px);font-style:normal;color:#0289eb;font-size:14px;top:1613px;white-space:nowrap}
+.vyora-home .v199{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(50% + 15px);font-style:normal;color:#0289eb;font-size:14px;top:1613px;white-space:nowrap}
+.vyora-home .v200{position:absolute;left:calc(25% + 81px);width:15px;height:15px;top:1612px}
+.vyora-home .v201{position:absolute;left:calc(37.5% + 25px);width:15px;height:15px;top:1613px}
+.vyora-home .v202{position:absolute;left:calc(50% - 8px);width:15px;height:15px;top:1613px}
+.vyora-home .v203{position:absolute;display:contents;left:calc(81.25% + 77px);top:1609px}
+.vyora-home .v204{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;height:8px;line-height:normal;left:calc(81.25% + 77px);font-style:normal;color:#0289eb;font-size:14px;top:1609px;width:72px}
+.vyora-home .v205{position:absolute;left:calc(87.5% + 37px);width:10px;height:10px;top:1611px}
+.vyora-home .v206{position:absolute;height:373px;left:calc(6.25% + 6px);top:1659px;width:400px}
+.vyora-home .v207{position:absolute;display:contents;left:calc(25% + 81px);top:1659px}
+.vyora-home .v208{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(25% + 95px);font-style:normal;font-size:15px;color:red;top:1827px;white-space:nowrap}
+.vyora-home .v209{position:absolute;height:118px;left:calc(25% + 81px);border-radius:10px;top:1659px;width:161px}
+.vyora-home .v210{position:absolute;background:#fff;height:34px;left:calc(25% + 81px);border-radius:5px;box-shadow:1px 3px 4px 1px rgba(0,0,0,0.25);top:1783px;width:150px}
+.vyora-home .v211{position:absolute;left:calc(25% + 85px);width:30px;height:30px;top:1784px}
+.vyora-home .v212{position:absolute;background:#0289eb;height:34px;left:31.25%;border-bottom-right-radius:5px;border-top-right-radius:5px;top:1783px;width:122px}
+.vyora-home .v213{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(31.25% + 13px);font-style:normal;font-size:9px;color:#fff;top:1786px;white-space:nowrap}
+.vyora-home .v214{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(31.25% + 14px);font-style:normal;font-size:6px;color:#fff;top:1808px;white-space:nowrap}
+.vyora-home .v215{position:absolute;left:calc(31.25% + 4px);width:6px;height:6px;top:1788px}
+.vyora-home .v216{position:absolute;left:calc(31.25% + 4px);width:6px;height:6px;top:1798px}
+.vyora-home .v217{position:absolute;left:calc(31.25% + 15px);width:8px;height:8px;top:1797px}
+.vyora-home .v218{position:absolute;left:calc(31.25% + 26px);width:8px;height:8px;top:1797px}
+.vyora-home .v219{position:absolute;left:calc(31.25% + 37px);width:8px;height:8px;top:1797px}
+.vyora-home .v220{position:absolute;left:calc(31.25% + 48px);width:8px;height:8px;top:1797px}
+.vyora-home .v221{position:absolute;left:calc(31.25% + 59px);width:8px;height:8px;top:1797px}
+.vyora-home .v222{position:absolute;left:calc(31.25% + 4px);width:6px;height:6px;top:1808px}
+.vyora-home .v223{position:absolute;display:contents;left:calc(37.5% + 25px);top:1659px}
+.vyora-home .v224{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(37.5% + 54px);font-style:normal;font-size:15px;color:red;top:1826px;white-space:nowrap}
+.vyora-home .v225{position:absolute;height:118px;left:calc(37.5% + 25px);border-radius:10px;top:1659px;width:161px}
+.vyora-home .v226{position:absolute;background:#fff;height:34px;left:calc(37.5% + 25px);border-radius:5px;box-shadow:1px 3px 4px 1px rgba(0,0,0,0.25);top:1783px;width:150px}
+.vyora-home .v227{position:absolute;left:calc(37.5% + 29px);width:30px;height:30px;top:1784px}
+.vyora-home .v228{position:absolute;background:#0289eb;height:34px;left:calc(37.5% + 64px);border-bottom-right-radius:5px;border-top-right-radius:5px;top:1783px;width:122px}
+.vyora-home .v229{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(37.5% + 77px);font-style:normal;font-size:9px;color:#fff;top:1786px;white-space:nowrap}
+.vyora-home .v230{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(37.5% + 78px);font-style:normal;font-size:6px;color:#fff;top:1808px;white-space:nowrap}
+.vyora-home .v231{position:absolute;left:calc(37.5% + 68px);width:6px;height:6px;top:1788px}
+.vyora-home .v232{position:absolute;left:calc(37.5% + 68px);width:6px;height:6px;top:1798px}
+.vyora-home .v233{position:absolute;left:calc(37.5% + 79px);width:8px;height:8px;top:1797px}
+.vyora-home .v234{position:absolute;left:calc(37.5% + 90px);width:8px;height:8px;top:1797px}
+.vyora-home .v235{position:absolute;left:calc(37.5% + 101px);width:8px;height:8px;top:1797px}
+.vyora-home .v236{position:absolute;left:calc(43.75% - 8px);width:8px;height:8px;top:1797px}
+.vyora-home .v237{position:absolute;left:calc(43.75% + 3px);width:8px;height:8px;top:1797px}
+.vyora-home .v238{position:absolute;left:calc(37.5% + 68px);width:6px;height:6px;top:1808px}
+.vyora-home .v239{position:absolute;display:contents;left:calc(43.75% + 89px);top:1659px}
+.vyora-home .v240{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(43.75% + 103px);font-style:normal;font-size:15px;color:red;top:1827px;white-space:nowrap}
+.vyora-home .v241{position:absolute;height:118px;left:calc(43.75% + 89px);border-radius:10px;top:1659px;width:161px}
+.vyora-home .v242{position:absolute;background:#fff;height:34px;left:calc(43.75% + 89px);border-radius:5px;box-shadow:1px 3px 4px 1px rgba(0,0,0,0.25);top:1783px;width:150px}
+.vyora-home .v243{position:absolute;left:calc(43.75% + 93px);width:30px;height:30px;top:1784px}
+.vyora-home .v244{position:absolute;background:#0289eb;height:34px;left:calc(50% + 8px);border-bottom-right-radius:5px;border-top-right-radius:5px;top:1783px;width:122px}
+.vyora-home .v245{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(50% + 21px);font-style:normal;font-size:9px;color:#fff;top:1786px;white-space:nowrap}
+.vyora-home .v246{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(50% + 22px);font-style:normal;font-size:6px;color:#fff;top:1808px;white-space:nowrap}
+.vyora-home .v247{position:absolute;left:calc(50% + 12px);width:6px;height:6px;top:1788px}
+.vyora-home .v248{position:absolute;left:calc(50% + 12px);width:6px;height:6px;top:1798px}
+.vyora-home .v249{position:absolute;left:calc(50% + 23px);width:8px;height:8px;top:1797px}
+.vyora-home .v250{position:absolute;left:calc(50% + 34px);width:8px;height:8px;top:1797px}
+.vyora-home .v251{position:absolute;left:calc(50% + 45px);width:8px;height:8px;top:1797px}
+.vyora-home .v252{position:absolute;left:calc(50% + 56px);width:8px;height:8px;top:1797px}
+.vyora-home .v253{position:absolute;left:calc(50% + 67px);width:8px;height:8px;top:1797px}
+.vyora-home .v254{position:absolute;left:calc(50% + 12px);width:6px;height:6px;top:1808px}
+.vyora-home .v255{position:absolute;display:contents;left:calc(56.25% + 33px);top:1659px}
+.vyora-home .v256{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(56.25% + 47px);font-style:normal;font-size:15px;color:red;top:1827px;white-space:nowrap}
+.vyora-home .v257{position:absolute;height:118px;left:calc(56.25% + 33px);border-radius:10px;top:1659px;width:161px}
+.vyora-home .v258{position:absolute;background:#fff;height:34px;left:calc(56.25% + 33px);border-radius:5px;box-shadow:1px 3px 4px 1px rgba(0,0,0,0.25);top:1783px;width:150px}
+.vyora-home .v259{position:absolute;left:calc(56.25% + 37px);width:30px;height:30px;top:1784px}
+.vyora-home .v260{position:absolute;background:#0289eb;height:34px;left:calc(56.25% + 72px);border-bottom-right-radius:5px;border-top-right-radius:5px;top:1783px;width:122px}
+.vyora-home .v261{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(56.25% + 85px);font-style:normal;font-size:9px;color:#fff;top:1786px;white-space:nowrap}
+.vyora-home .v262{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(56.25% + 86px);font-style:normal;font-size:6px;color:#fff;top:1808px;white-space:nowrap}
+.vyora-home .v263{position:absolute;left:calc(56.25% + 76px);width:6px;height:6px;top:1788px}
+.vyora-home .v264{position:absolute;left:calc(56.25% + 76px);width:6px;height:6px;top:1798px}
+.vyora-home .v265{position:absolute;left:calc(56.25% + 87px);width:8px;height:8px;top:1797px}
+.vyora-home .v266{position:absolute;left:calc(56.25% + 98px);width:8px;height:8px;top:1797px}
+.vyora-home .v267{position:absolute;left:calc(56.25% + 109px);width:8px;height:8px;top:1797px}
+.vyora-home .v268{position:absolute;left:62.5%;width:8px;height:8px;top:1797px}
+.vyora-home .v269{position:absolute;left:calc(62.5% + 11px);width:8px;height:8px;top:1797px}
+.vyora-home .v270{position:absolute;left:calc(56.25% + 76px);width:6px;height:6px;top:1808px}
+.vyora-home .v271{position:absolute;display:contents;left:calc(62.5% + 97px);top:1659px}
+.vyora-home .v272{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(62.5% + 111px);font-style:normal;font-size:15px;color:red;top:1827px;white-space:nowrap}
+.vyora-home .v273{position:absolute;height:118px;left:calc(62.5% + 97px);border-radius:10px;top:1659px;width:161px}
+.vyora-home .v274{position:absolute;background:#fff;height:34px;left:calc(62.5% + 97px);border-radius:5px;box-shadow:1px 3px 4px 1px rgba(0,0,0,0.25);top:1783px;width:150px}
+.vyora-home .v275{position:absolute;left:calc(62.5% + 101px);width:30px;height:30px;top:1784px}
+.vyora-home .v276{position:absolute;background:#0289eb;height:34px;left:calc(68.75% + 16px);border-bottom-right-radius:5px;border-top-right-radius:5px;top:1783px;width:122px}
+.vyora-home .v277{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(68.75% + 29px);font-style:normal;font-size:9px;color:#fff;top:1786px;white-space:nowrap}
+.vyora-home .v278{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(68.75% + 30px);font-style:normal;font-size:6px;color:#fff;top:1808px;white-space:nowrap}
+.vyora-home .v279{position:absolute;left:calc(68.75% + 20px);width:6px;height:6px;top:1788px}
+.vyora-home .v280{position:absolute;left:calc(68.75% + 20px);width:6px;height:6px;top:1798px}
+.vyora-home .v281{position:absolute;left:calc(68.75% + 31px);width:8px;height:8px;top:1797px}
+.vyora-home .v282{position:absolute;left:calc(68.75% + 42px);width:8px;height:8px;top:1797px}
+.vyora-home .v283{position:absolute;left:calc(68.75% + 53px);width:8px;height:8px;top:1797px}
+.vyora-home .v284{position:absolute;left:calc(68.75% + 64px);width:8px;height:8px;top:1797px}
+.vyora-home .v285{position:absolute;left:calc(68.75% + 75px);width:8px;height:8px;top:1797px}
+.vyora-home .v286{position:absolute;left:calc(68.75% + 20px);width:6px;height:6px;top:1808px}
+.vyora-home .v287{position:absolute;display:contents;left:calc(75% + 41px);top:1659px}
+.vyora-home .v288{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(75% + 55px);font-style:normal;font-size:15px;color:red;top:1827px;white-space:nowrap}
+.vyora-home .v289{position:absolute;height:118px;left:calc(75% + 41px);border-radius:10px;top:1659px;width:161px}
+.vyora-home .v290{position:absolute;inset:0;overflow:hidden;pointer-events:none;border-radius:10px}
+.vyora-home .v291{position:absolute;height:136.44%;left:0.11%;max-width:none;top:0.11%;width:100%}
+.vyora-home .v292{position:absolute;background:#fff;height:34px;left:calc(75% + 41px);border-radius:5px;box-shadow:1px 3px 4px 1px rgba(0,0,0,0.25);top:1783px;width:150px}
+.vyora-home .v293{position:absolute;left:calc(75% + 45px);width:30px;height:30px;top:1784px}
+.vyora-home .v294{position:absolute;background:#0289eb;height:34px;left:calc(75% + 80px);border-bottom-right-radius:5px;border-top-right-radius:5px;top:1783px;width:122px}
+.vyora-home .v295{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(75% + 93px);font-style:normal;font-size:9px;color:#fff;top:1786px;white-space:nowrap}
+.vyora-home .v296{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(75% + 94px);font-style:normal;font-size:6px;color:#fff;top:1808px;white-space:nowrap}
+.vyora-home .v297{position:absolute;left:calc(75% + 84px);width:6px;height:6px;top:1788px}
+.vyora-home .v298{position:absolute;left:calc(75% + 84px);width:6px;height:6px;top:1798px}
+.vyora-home .v299{position:absolute;left:calc(75% + 95px);width:8px;height:8px;top:1797px}
+.vyora-home .v300{position:absolute;left:calc(75% + 106px);width:8px;height:8px;top:1797px}
+.vyora-home .v301{position:absolute;left:calc(81.25% - 3px);width:8px;height:8px;top:1797px}
+.vyora-home .v302{position:absolute;left:calc(81.25% + 8px);width:8px;height:8px;top:1797px}
+.vyora-home .v303{position:absolute;left:calc(81.25% + 19px);width:8px;height:8px;top:1797px}
+.vyora-home .v304{position:absolute;left:calc(75% + 84px);width:6px;height:6px;top:1808px}
+.vyora-home .v305{position:absolute;display:contents;left:calc(25% + 81px);top:1874px}
+.vyora-home .v306{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(31.25% - 9px);font-style:normal;font-size:15px;color:red;top:2042px;white-space:nowrap}
+.vyora-home .v307{position:absolute;height:118px;left:calc(25% + 81px);border-radius:10px;top:1874px;width:161px}
+.vyora-home .v308{position:absolute;background:#fff;height:34px;left:calc(25% + 81px);border-radius:5px;box-shadow:1px 3px 4px 1px rgba(0,0,0,0.25);top:1998px;width:150px}
+.vyora-home .v309{position:absolute;left:calc(25% + 85px);width:30px;height:30px;top:1999px}
+.vyora-home .v310{position:absolute;background:#0289eb;height:34px;left:31.25%;border-bottom-right-radius:5px;border-top-right-radius:5px;top:1998px;width:122px}
+.vyora-home .v311{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(31.25% + 13px);font-style:normal;font-size:9px;color:#fff;top:2001px;white-space:nowrap}
+.vyora-home .v312{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(31.25% + 14px);font-style:normal;font-size:6px;color:#fff;top:2023px;white-space:nowrap}
+.vyora-home .v313{position:absolute;left:calc(31.25% + 4px);width:6px;height:6px;top:2003px}
+.vyora-home .v314{position:absolute;left:calc(31.25% + 4px);width:6px;height:6px;top:2013px}
+.vyora-home .v315{position:absolute;left:calc(31.25% + 15px);width:8px;height:8px;top:2012px}
+.vyora-home .v316{position:absolute;left:calc(31.25% + 26px);width:8px;height:8px;top:2012px}
+.vyora-home .v317{position:absolute;left:calc(31.25% + 37px);width:8px;height:8px;top:2012px}
+.vyora-home .v318{position:absolute;left:calc(31.25% + 4px);width:6px;height:6px;top:2023px}
+.vyora-home .v319{position:absolute;display:contents;left:calc(37.5% + 25px);top:1874px}
+.vyora-home .v320{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(37.5% + 39px);font-style:normal;font-size:15px;color:red;top:2042px;white-space:nowrap}
+.vyora-home .v321{position:absolute;height:118px;left:calc(37.5% + 25px);border-radius:10px;top:1874px;width:161px}
+.vyora-home .v322{position:absolute;background:#fff;height:34px;left:calc(37.5% + 25px);border-radius:5px;box-shadow:1px 3px 4px 1px rgba(0,0,0,0.25);top:1998px;width:150px}
+.vyora-home .v323{position:absolute;left:calc(37.5% + 29px);width:30px;height:30px;top:1999px}
+.vyora-home .v324{position:absolute;background:#0289eb;height:34px;left:calc(37.5% + 64px);border-bottom-right-radius:5px;border-top-right-radius:5px;top:1998px;width:122px}
+.vyora-home .v325{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(37.5% + 77px);font-style:normal;font-size:8px;color:#fff;top:2002px;white-space:nowrap}
+.vyora-home .v326{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(37.5% + 78px);font-style:normal;font-size:6px;color:#fff;top:2023px;white-space:nowrap}
+.vyora-home .v327{position:absolute;left:calc(37.5% + 68px);width:6px;height:6px;top:2003px}
+.vyora-home .v328{position:absolute;left:calc(37.5% + 68px);width:6px;height:6px;top:2013px}
+.vyora-home .v329{position:absolute;left:calc(37.5% + 79px);width:8px;height:8px;top:2012px}
+.vyora-home .v330{position:absolute;left:calc(37.5% + 90px);width:8px;height:8px;top:2012px}
+.vyora-home .v331{position:absolute;left:calc(37.5% + 101px);width:8px;height:8px;top:2012px}
+.vyora-home .v332{position:absolute;left:calc(43.75% - 8px);width:8px;height:8px;top:2012px}
+.vyora-home .v333{position:absolute;left:calc(37.5% + 68px);width:6px;height:6px;top:2023px}
+.vyora-home .v334{position:absolute;display:contents;left:calc(43.75% + 89px);top:1874px}
+.vyora-home .v335{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(43.75% + 103px);font-style:normal;font-size:15px;color:red;top:2042px;white-space:nowrap}
+.vyora-home .v336{position:absolute;height:118px;left:calc(43.75% + 89px);border-radius:10px;top:1874px;width:161px}
+.vyora-home .v337{position:absolute;background:#fff;height:34px;left:calc(43.75% + 89px);border-radius:5px;box-shadow:1px 3px 4px 1px rgba(0,0,0,0.25);top:1998px;width:150px}
+.vyora-home .v338{position:absolute;left:calc(43.75% + 93px);width:30px;height:30px;top:1999px}
+.vyora-home .v339{position:absolute;background:#0289eb;height:34px;left:calc(50% + 8px);border-bottom-right-radius:5px;border-top-right-radius:5px;top:1998px;width:122px}
+.vyora-home .v340{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(50% + 21px);font-style:normal;font-size:9px;color:#fff;top:2001px;white-space:nowrap}
+.vyora-home .v341{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(50% + 22px);font-style:normal;font-size:6px;color:#fff;top:2023px;white-space:nowrap}
+.vyora-home .v342{position:absolute;left:calc(50% + 12px);width:6px;height:6px;top:2003px}
+.vyora-home .v343{position:absolute;left:calc(50% + 12px);width:6px;height:6px;top:2013px}
+.vyora-home .v344{position:absolute;left:calc(50% + 23px);width:8px;height:8px;top:2012px}
+.vyora-home .v345{position:absolute;left:calc(50% + 34px);width:8px;height:8px;top:2012px}
+.vyora-home .v346{position:absolute;left:calc(50% + 45px);width:8px;height:8px;top:2012px}
+.vyora-home .v347{position:absolute;left:calc(50% + 56px);width:8px;height:8px;top:2012px}
+.vyora-home .v348{position:absolute;left:calc(50% + 12px);width:6px;height:6px;top:2023px}
+.vyora-home .v349{position:absolute;display:contents;left:calc(56.25% + 33px);top:1874px}
+.vyora-home .v350{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(56.25% + 47px);font-style:normal;font-size:15px;color:red;top:2042px;white-space:nowrap}
+.vyora-home .v351{position:absolute;height:118px;left:calc(56.25% + 33px);border-radius:10px;top:1874px;width:161px}
+.vyora-home .v352{position:absolute;background:#fff;height:34px;left:calc(56.25% + 33px);border-radius:5px;box-shadow:1px 3px 4px 1px rgba(0,0,0,0.25);top:1998px;width:150px}
+.vyora-home .v353{position:absolute;left:calc(56.25% + 37px);width:30px;height:30px;top:1999px}
+.vyora-home .v354{position:absolute;background:#0289eb;height:34px;left:calc(56.25% + 72px);border-bottom-right-radius:5px;border-top-right-radius:5px;top:1998px;width:122px}
+.vyora-home .v355{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(56.25% + 85px);font-style:normal;font-size:9px;color:#fff;top:2001px;white-space:nowrap}
+.vyora-home .v356{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(56.25% + 86px);font-style:normal;font-size:6px;color:#fff;top:2023px;white-space:nowrap}
+.vyora-home .v357{position:absolute;left:calc(56.25% + 76px);width:6px;height:6px;top:2003px}
+.vyora-home .v358{position:absolute;left:calc(56.25% + 76px);width:6px;height:6px;top:2013px}
+.vyora-home .v359{position:absolute;left:calc(56.25% + 87px);width:8px;height:8px;top:2012px}
+.vyora-home .v360{position:absolute;left:calc(56.25% + 98px);width:8px;height:8px;top:2012px}
+.vyora-home .v361{position:absolute;left:calc(56.25% + 109px);width:8px;height:8px;top:2012px}
+.vyora-home .v362{position:absolute;left:62.5%;width:8px;height:8px;top:2012px}
+.vyora-home .v363{position:absolute;left:calc(56.25% + 76px);width:6px;height:6px;top:2023px}
+.vyora-home .v364{position:absolute;display:contents;left:calc(62.5% + 97px);top:1874px}
+.vyora-home .v365{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(62.5% + 111px);font-style:normal;font-size:15px;color:red;top:2042px;white-space:nowrap}
+.vyora-home .v366{position:absolute;height:118px;left:calc(62.5% + 97px);border-radius:10px;top:1874px;width:161px}
+.vyora-home .v367{position:absolute;background:#fff;height:34px;left:calc(62.5% + 97px);border-radius:5px;box-shadow:1px 3px 4px 1px rgba(0,0,0,0.25);top:1998px;width:150px}
+.vyora-home .v368{position:absolute;left:calc(62.5% + 101px);width:30px;height:30px;top:1999px}
+.vyora-home .v369{position:absolute;background:#0289eb;height:34px;left:calc(68.75% + 16px);border-bottom-right-radius:5px;border-top-right-radius:5px;top:1998px;width:122px}
+.vyora-home .v370{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(68.75% + 29px);font-style:normal;font-size:9px;color:#fff;top:2001px;white-space:nowrap}
+.vyora-home .v371{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(68.75% + 30px);font-style:normal;font-size:6px;color:#fff;top:2023px;white-space:nowrap}
+.vyora-home .v372{position:absolute;left:calc(68.75% + 20px);width:6px;height:6px;top:2003px}
+.vyora-home .v373{position:absolute;left:calc(68.75% + 20px);width:6px;height:6px;top:2013px}
+.vyora-home .v374{position:absolute;left:calc(68.75% + 31px);width:8px;height:8px;top:2012px}
+.vyora-home .v375{position:absolute;left:calc(68.75% + 42px);width:8px;height:8px;top:2012px}
+.vyora-home .v376{position:absolute;left:calc(68.75% + 53px);width:8px;height:8px;top:2012px}
+.vyora-home .v377{position:absolute;left:calc(68.75% + 64px);width:8px;height:8px;top:2012px}
+.vyora-home .v378{position:absolute;left:calc(68.75% + 75px);width:8px;height:8px;top:2012px}
+.vyora-home .v379{position:absolute;left:calc(68.75% + 20px);width:6px;height:6px;top:2023px}
+.vyora-home .v380{position:absolute;display:contents;left:calc(75% + 41px);top:1874px}
+.vyora-home .v381{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(75% + 55px);font-style:normal;font-size:15px;color:red;top:2042px;white-space:nowrap}
+.vyora-home .v382{position:absolute;height:118px;left:calc(75% + 41px);border-radius:10px;top:1874px;width:161px}
+.vyora-home .v383{position:absolute;background:#fff;height:34px;left:calc(75% + 41px);border-radius:5px;box-shadow:1px 3px 4px 1px rgba(0,0,0,0.25);top:1998px;width:150px}
+.vyora-home .v384{position:absolute;left:calc(75% + 45px);width:30px;height:30px;top:1999px}
+.vyora-home .v385{position:absolute;background:#0289eb;height:34px;left:calc(75% + 80px);border-bottom-right-radius:5px;border-top-right-radius:5px;top:1998px;width:122px}
+.vyora-home .v386{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:500;line-height:normal;left:calc(75% + 93px);font-style:normal;font-size:9px;color:#fff;top:2001px;white-space:nowrap}
+.vyora-home .v387{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(75% + 94px);font-style:normal;font-size:6px;color:#fff;top:2023px;white-space:nowrap}
+.vyora-home .v388{position:absolute;left:calc(75% + 84px);width:6px;height:6px;top:2003px}
+.vyora-home .v389{position:absolute;left:calc(75% + 84px);width:6px;height:6px;top:2013px}
+.vyora-home .v390{position:absolute;left:calc(75% + 95px);width:8px;height:8px;top:2012px}
+.vyora-home .v391{position:absolute;left:calc(75% + 106px);width:8px;height:8px;top:2012px}
+.vyora-home .v392{position:absolute;left:calc(81.25% - 3px);width:8px;height:8px;top:2012px}
+.vyora-home .v393{position:absolute;left:calc(81.25% + 8px);width:8px;height:8px;top:2012px}
+.vyora-home .v394{position:absolute;left:calc(75% + 84px);width:6px;height:6px;top:2023px}
+.vyora-home .v395{background:#fff;border-color:rgba(2,137,235,0.94);border-bottom-width:1px;border-style:solid;opacity:.1;position:relative;width:100%;height:100%}
+.vyora-home .v396{overflow-wrap:break-word;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:normal;font-style:normal;position:relative;width:100%;height:100%;color:#0289eb;font-size:18px;white-space:nowrap}
+.vyora-home .v397{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;height:8px;line-height:normal;left:calc(81.25% + 68px);font-style:normal;color:#0289eb;font-size:14px;top:2129px;width:72px}
+.vyora-home .v398{position:absolute;left:calc(87.5% + 28px);width:10px;height:10px;top:2131px}
+.vyora-home .v399{position:absolute;background:#fff;height:300px;left:calc(6.25% + 51px);box-shadow:0px 4px 4px 0px rgba(0,0,0,0.25);top:2214px;width:250px}
+.vyora-home .v400{position:absolute;height:231px;left:calc(6.25% + 51px);top:2214px;width:250px}
+.vyora-home .v401{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:0;left:calc(6.25% + 58px);font-style:normal;font-size:20px;color:#000;top:2454px;white-space:nowrap}
+.vyora-home .v402{line-height:26px;margin-bottom:0;white-space:pre}
+.vyora-home .v403{line-height:26px;white-space:pre}
+.vyora-home .v404{position:absolute;background:rgba(0,147,255,0.53);height:17px;left:calc(6.25% + 51px);top:2428px;width:250px}
+.vyora-home .v405{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:26px;left:calc(12.5% + 15px);font-style:normal;font-size:12px;color:#fff;top:2425px;white-space:nowrap}
+.vyora-home .v406{position:absolute;height:71px;left:calc(6.25% + 37px);top:2198px;width:58px}
+.vyora-home .v407{position:absolute;background:#fff;height:300px;left:calc(37.5% + 59px);box-shadow:0px 4px 4px 0px rgba(0,0,0,0.25);top:2214px;width:250px}
+.vyora-home .v408{position:absolute;height:231px;left:calc(37.5% + 59px);top:2214px;width:250px}
+.vyora-home .v409{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.vyora-home .v410{position:absolute;height:100%;left:-8.64%;max-width:none;top:0;width:147.61%}
+.vyora-home .v411{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:0;left:calc(37.5% + 66px);font-style:normal;font-size:20px;color:#000;top:2454px;white-space:nowrap}
+.vyora-home .v412{line-height:26px;margin-bottom:0}
+.vyora-home .v413{line-height:26px}
+.vyora-home .v414{position:absolute;background:rgba(0,147,255,0.53);height:17px;left:calc(37.5% + 59px);top:2428px;width:250px}
+.vyora-home .v415{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:26px;left:calc(43.75% + 23px);font-style:normal;font-size:12px;color:#fff;top:2425px;white-space:nowrap}
+.vyora-home .v416{position:absolute;height:71px;left:calc(37.5% + 45px);top:2198px;width:58px}
+.vyora-home .v417{position:absolute;background:#fff;height:300px;left:56.25%;box-shadow:0px 4px 4px 0px rgba(0,0,0,0.25);top:2214px;width:250px}
+.vyora-home .v418{position:absolute;height:231px;left:56.25%;top:2214px;width:250px}
+.vyora-home .v419{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:0;left:calc(56.25% + 7px);font-style:normal;font-size:20px;color:#000;top:2454px;white-space:nowrap}
+.vyora-home .v420{position:absolute;background:rgba(0,147,255,0.53);height:17px;left:56.25%;top:2428px;width:250px}
+.vyora-home .v421{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:26px;left:calc(56.25% + 79px);font-style:normal;font-size:12px;color:#fff;top:2425px;white-space:nowrap}
+.vyora-home .v422{position:absolute;height:71px;left:calc(50% + 106px);top:2198px;width:58px}
+.vyora-home .v423{overflow:clip;position:relative;border-radius:30px;box-shadow:0px 4px 4px 0px rgba(0,0,0,0.25);width:100%;height:100%;background:linear-gradient(to right,#3eacff,#4cb1fc)}
+.vyora-home .v424{overflow-wrap:break-word;font-family:"Inter",Arial,sans-serif;font-weight:700;font-weight:700;line-height:normal;font-style:normal;position:relative;width:100%;height:100%;font-size:16px;color:#fff;white-space:nowrap}
+.vyora-home .v425{overflow-wrap:break-word;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:normal;font-style:normal;position:relative;width:100%;height:100%;font-size:18px;color:#fff;white-space:nowrap}
+.vyora-home .v437{position:absolute;inset:-0.5px 0}
+.vyora-home .v541{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;height:8px;line-height:normal;left:calc(81.25% + 77px);font-style:normal;font-size:14px;color:#fff;top:3204px;width:72px}
+.vyora-home .v542{position:absolute;left:calc(87.5% + 37px);width:10px;height:10px;top:3206px}
+.vyora-home .v543{background:#fff;overflow:clip;position:relative;border-radius:30px;box-shadow:0px 4px 4px 0px rgba(0,0,0,0.25);width:100%;height:100%}
+.vyora-home .v544{position:absolute;height:109.73%;left:0;max-width:none;top:-9.73%;width:100%}
+.vyora-home .v545{position:absolute;background:#ebebeb;height:462px;left:-2px;top:4948px;width:1920px}
+.vyora-home .v546{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(43.75% + 100px);font-style:normal;font-size:10px;color:#000;top:5067px;white-space:nowrap}
+.vyora-home .v547{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(56.25% + 75px);font-style:normal;font-size:12px;color:#000;top:5065px;white-space:nowrap}
+.vyora-home .v548{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(56.25% + 75px);font-style:normal;font-size:12px;color:#000;top:5091px;white-space:nowrap}
+.vyora-home .v549{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(56.25% + 75px);font-style:normal;font-size:12px;color:#000;top:5118px;white-space:nowrap}
+.vyora-home .v550{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(43.75% + 100px);font-style:normal;font-size:10px;color:#000;top:5096px;white-space:nowrap}
+.vyora-home .v551{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(43.75% + 100px);font-style:normal;font-size:10px;color:#000;top:5126px;white-space:nowrap}
+.vyora-home .v552{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(43.75% + 100px);font-style:normal;font-size:10px;color:#000;top:5156px;white-space:nowrap}
+.vyora-home .v553{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:15px;left:95px;font-style:normal;color:#0289eb;font-size:14px;top:5034px;letter-spacing:0.14px;white-space:nowrap}
+.vyora-home .v554{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:15px;left:calc(18.75% + 13px);font-style:normal;color:#0289eb;font-size:14px;top:5034px;letter-spacing:0.14px;white-space:nowrap}
+.vyora-home .v555{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:15px;left:calc(31.25% - 2px);font-style:normal;color:#0289eb;font-size:14px;top:5034px;letter-spacing:0.14px;white-space:nowrap}
+.vyora-home .v556{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:15px;left:calc(43.75% + 77px);font-style:normal;color:#0289eb;font-size:14px;top:5034px;letter-spacing:0.14px;white-space:nowrap}
+.vyora-home .v557{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:15px;left:calc(56.25% + 54px);font-style:normal;color:#0289eb;font-size:14px;top:5034px;letter-spacing:0.14px;white-space:nowrap}
+.vyora-home .v558{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:700;line-height:15px;left:calc(31.25% - 2px);font-style:normal;color:#0289eb;font-size:14px;top:5191px;letter-spacing:0.14px;white-space:nowrap}
+.vyora-home .v559{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:15px;left:95px;font-style:normal;font-size:12px;color:#000;top:5079px;letter-spacing:0.12px;white-space:nowrap}
+.vyora-home .v560{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:15px;left:calc(18.75% + 13px);font-style:normal;font-size:12px;color:#000;top:5079px;letter-spacing:0.12px;white-space:nowrap}
+.vyora-home .v561{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:15px;left:calc(18.75% + 13px);font-style:normal;font-size:12px;color:#000;top:5104px;letter-spacing:0.12px;white-space:nowrap}
+.vyora-home .v562{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:15px;left:calc(18.75% + 13px);font-style:normal;font-size:12px;color:#000;top:5129px;letter-spacing:0.12px;white-space:nowrap}
+.vyora-home .v563{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:15px;left:calc(18.75% + 13px);font-style:normal;font-size:12px;color:#000;top:5154px;letter-spacing:0.12px;white-space:nowrap}
+.vyora-home .v564{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:15px;left:95px;font-style:normal;font-size:12px;color:#000;top:5104px;letter-spacing:0.12px;white-space:nowrap}
+.vyora-home .v565{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:15px;left:95px;font-style:normal;font-size:12px;color:#000;top:5129px;letter-spacing:0.12px;white-space:nowrap}
+.vyora-home .v566{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:15px;left:95px;font-style:normal;font-size:12px;color:#000;top:5154px;letter-spacing:0.12px;white-space:nowrap}
+.vyora-home .v567{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:15px;left:95px;font-style:normal;font-size:12px;color:#000;top:5179px;letter-spacing:0.12px;white-space:nowrap}
+.vyora-home .v568{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:15px;left:95px;font-style:normal;font-size:12px;color:#000;top:5204px;letter-spacing:0.12px;white-space:nowrap}
+.vyora-home .v569{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:15px;left:95px;font-style:normal;font-size:12px;color:#000;top:5229px;letter-spacing:0.12px;white-space:nowrap}
+.vyora-home .v570{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:15px;left:95px;font-style:normal;font-size:12px;color:#000;top:5254px;letter-spacing:0.12px;white-space:nowrap}
+.vyora-home .v571{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:15px;left:95px;font-style:normal;font-size:12px;color:#000;top:5279px;letter-spacing:0.12px;white-space:nowrap}
+.vyora-home .v572{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:15px;left:95px;font-style:normal;font-size:12px;color:#000;top:5304px;letter-spacing:0.12px;white-space:nowrap}
+.vyora-home .v573{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:400;line-height:15px;left:95px;font-style:normal;font-size:12px;color:#000;top:5329px;letter-spacing:0.12px;white-space:nowrap}
+.vyora-home .v574{position:absolute;height:16.125px;left:calc(31.25% - 3px);top:5082px;width:49.615px}
+.vyora-home .v575{position:absolute;height:20px;left:calc(31.25% + 84px);top:5079px;width:36px}
+.vyora-home .v576{position:absolute;height:20.944px;left:calc(37.5% + 42px);top:5079px;width:27.073px}
+.vyora-home .v577{position:absolute;left:calc(31.25% + 7px);width:30px;height:30px;top:5119px}
+.vyora-home .v578{position:absolute;height:17.913px;left:calc(31.25% + 77px);top:5125px;width:56.272px}
+.vyora-home .v579{position:absolute;height:14.023px;left:calc(37.5% + 31px);top:5127px;width:48.919px}
+.vyora-home .v580{position:absolute;height:12.918px;left:calc(31.25% - 2px);top:5234px;width:61.391px}
+.vyora-home .v581{position:absolute;height:18.982px;left:calc(31.25% + 84px);top:5231px;width:49.048px}
+.vyora-home .v582{position:absolute;height:23.25px;left:calc(37.5% + 38px);top:5227px;width:46.5px}
+.vyora-home .v583{position:absolute;height:104px;left:calc(43.75% + 77px);top:5065px;width:14px}
+.vyora-home .v584{position:absolute;left:calc(56.25% + 54px);width:12px;height:12px;top:5065px}
+.vyora-home .v585{position:absolute;left:calc(56.25% + 54px);width:12px;height:12px;top:5092px}
+.vyora-home .v586{position:absolute;left:calc(56.25% + 54px);width:12px;height:12px;top:5119px}
+.vyora-home .v587{position:absolute;display:contents;left:calc(18.75% + 101px);top:5464px}
+.vyora-home .v588{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(18.75% + 101px);font-style:normal;font-size:12px;color:#000;top:5464px;white-space:nowrap}
+.vyora-home .v589{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(31.25% + 57px);font-style:normal;font-size:12px;color:#000;top:5464px;white-space:nowrap}
+.vyora-home .v590{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(43.75% + 18px);font-style:normal;font-size:12px;color:#000;top:5464px;white-space:nowrap}
+.vyora-home .v591{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;line-height:normal;left:calc(56.25% + 5px);font-style:normal;font-size:12px;color:#000;top:5464px;white-space:nowrap}
+.vyora-home .v592{position:absolute;display:flex;height:12px;align-items:center;justify-content:center;left:calc(31.25% + 21px);top:5464px;width:0}
+.vyora-home .v593{height:0;position:relative;width:12px}
+.vyora-home .v594{position:absolute;display:flex;height:12px;align-items:center;justify-content:center;left:calc(37.5% + 101px);top:5464px;width:0}
+.vyora-home .v595{position:absolute;display:flex;height:12px;align-items:center;justify-content:center;left:calc(50% + 85px);top:5464px;width:0}
+.vyora-home .v596{position:absolute;height:52.938px;left:calc(31.25% + 7px);top:5521px;width:173.204px}
+.vyora-home .v597{position:absolute;height:131.217px;left:calc(37.5% + 75px);top:5484px;width:259.57px}
+.vyora-home .v598{overflow-wrap:break-word;position:absolute;font-family:"SVN-Gilroy",Arial,sans-serif;font-weight:300;font-style:italic;line-height:normal;left:calc(37.5% + 16px);font-style:normal;font-size:12px;color:#000;top:5646px;white-space:nowrap}
+.vyora-home .v599{position:absolute;inset:0 0 86.89% 0}
+.vyora-home .v600{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:1.15% 43.39% 93.61% 43.39%;line-height:normal;font-style:normal;color:#0289eb;font-size:28px;text-align:center;white-space:nowrap}
+.vyora-home .v601{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:7.38% 37.09% 89.67% 37.09%;line-height:normal;font-style:normal;color:#657989;font-size:16px;text-align:center;white-space:nowrap}
+.vyora-home .v602{position:absolute;inset:12.62% 0 86.89% 0}
+.vyora-home .v603{position:absolute;display:contents;inset:16.07% 84.24% 11.15% 0}
+.vyora-home .v604{position:absolute;inset:16.07% 84.24% 11.15% 0}
+.vyora-home .v605{position:absolute;inset:-0.11% -0.19%}
+.vyora-home .v606{position:absolute;display:contents;inset:16.23% 84.3% 43.77% 0.06%}
+.vyora-home .v607{position:absolute;inset:16.23% 84.3% 41.48% 0.06%;mask-mode:alpha;mask-composite:intersect;mask-clip:no-clip;mask-repeat:no-repeat;mask-size:258px 244px}
+.vyora-home .v608{position:absolute;left:0;max-width:none;width:100%;height:100%;top:0}
+.vyora-home .v609{position:absolute;inset:17.7% 84.85% 77.7% 12.06%}
+.vyora-home .v610{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:18.2% 85.18% 78.52% 12.39%;line-height:normal;font-style:normal;color:#e95b31;font-size:17px;text-align:center;white-space:nowrap}
+.vyora-home .v611{position:absolute;inset:50.66% 90% 45.41% 0.61%}
+.vyora-home .v612{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:51.48% 94.61% 46.23% 1.09%;line-height:normal;font-style:normal;font-size:12px;color:#fff;white-space:nowrap}
+.vyora-home .v613{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:57.7% 89.09% 38.85% 0.85%;line-height:normal;font-style:normal;color:#203646;font-size:18px;white-space:nowrap}
+.vyora-home .v614{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:62.62% 90.18% 34.75% 0.85%;line-height:normal;font-style:normal;color:#687e8d;font-size:14px;white-space:nowrap}
+.vyora-home .v615{position:absolute;inset:67.54% 92.48% 28.36% 0.85%}
+.vyora-home .v616{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:68.52% 92.85% 29.18% 1.33%;line-height:normal;font-style:normal;color:#007fc9;font-size:12px;white-space:nowrap}
+.vyora-home .v617{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:71.97% 91.76% 23.44% 0.85%;line-height:normal;font-style:normal;color:#0289eb;font-size:24px;white-space:nowrap}
+.vyora-home .v618{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:77.38% 94.85% 20% 0.85%;line-height:normal;font-style:normal;color:#91a0aa;font-size:14px;white-space:nowrap}
+.vyora-home .v619{position:absolute;inset:78.85% 94% 21.15% 0.85%}
+.vyora-home .v620{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:77.38% 85.15% 20.16% 10.91%;line-height:normal;font-style:normal;color:#596e7c;font-size:13px;text-align:right;white-space:nowrap}
+.vyora-home .v621{position:absolute;inset:81.97% 85.09% 18.03% 0.85%}
+.vyora-home .v622{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:83.77% 94.61% 13.61% 0.85%;line-height:normal;font-style:normal;color:#657989;font-size:14px;white-space:nowrap}
+.vyora-home .v623{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:83.77% 85.15% 13.61% 12.61%;line-height:normal;font-style:normal;color:#e7a02b;font-size:14px;text-align:right;white-space:nowrap}
+.vyora-home .v624{position:absolute;display:contents;inset:16.07% 67.39% 11.15% 16.85%}
+.vyora-home .v625{position:absolute;inset:16.07% 67.39% 11.15% 16.85%}
+.vyora-home .v626{position:absolute;display:contents;inset:16.23% 67.45% 43.77% 16.91%}
+.vyora-home .v627{position:absolute;inset:16.23% 67.45% 41.48% 16.91%;mask-mode:alpha;mask-composite:intersect;mask-clip:no-clip;mask-repeat:no-repeat;mask-size:258px 244px}
+.vyora-home .v628{position:absolute;inset:17.7% 68% 77.7% 28.91%}
+.vyora-home .v629{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:18.2% 68.33% 78.52% 29.24%;line-height:normal;font-style:normal;color:#e95b31;font-size:17px;text-align:center;white-space:nowrap}
+.vyora-home .v630{position:absolute;inset:50.66% 73.15% 45.41% 17.45%}
+.vyora-home .v631{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:51.48% 77.21% 46.23% 17.94%;line-height:normal;font-style:normal;font-size:12px;color:#fff;white-space:nowrap}
+.vyora-home .v632{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:57.7% 69.33% 38.85% 17.7%;line-height:normal;font-style:normal;color:#203646;font-size:18px;white-space:nowrap}
+.vyora-home .v633{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:62.62% 71.64% 34.75% 17.7%;line-height:normal;font-style:normal;color:#687e8d;font-size:14px;white-space:nowrap}
+.vyora-home .v634{position:absolute;inset:67.54% 75.64% 28.36% 17.7%}
+.vyora-home .v635{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:68.52% 76% 29.18% 18.18%;line-height:normal;font-style:normal;color:#007fc9;font-size:12px;white-space:nowrap}
+.vyora-home .v636{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:71.97% 76.12% 23.44% 17.7%;line-height:normal;font-style:normal;color:#0289eb;font-size:24px;white-space:nowrap}
+.vyora-home .v637{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:77.38% 78.73% 20% 17.7%;line-height:normal;font-style:normal;color:#91a0aa;font-size:14px;white-space:nowrap}
+.vyora-home .v638{position:absolute;inset:78.85% 77.15% 21.15% 17.7%}
+.vyora-home .v639{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:77.38% 68.3% 20.16% 27.94%;line-height:normal;font-style:normal;color:#596e7c;font-size:13px;text-align:right;white-space:nowrap}
+.vyora-home .v640{position:absolute;inset:81.97% 68.24% 18.03% 17.7%}
+.vyora-home .v641{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:83.77% 79.76% 13.61% 17.7%;line-height:normal;font-style:normal;color:#657989;font-size:14px;white-space:nowrap}
+.vyora-home .v642{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:83.77% 68.3% 13.61% 29.45%;line-height:normal;font-style:normal;color:#e7a02b;font-size:14px;text-align:right;white-space:nowrap}
+.vyora-home .v643{position:absolute;display:contents;inset:16.07% 50.55% 11.15% 33.7%}
+.vyora-home .v644{position:absolute;inset:16.07% 50.55% 11.15% 33.7%}
+.vyora-home .v645{position:absolute;display:contents;inset:16.23% 50.61% 43.77% 33.76%}
+.vyora-home .v646{position:absolute;inset:16.23% 50.61% 41.48% 33.76%;mask-mode:alpha;mask-composite:intersect;mask-clip:no-clip;mask-repeat:no-repeat;mask-size:258px 244px}
+.vyora-home .v647{position:absolute;inset:17.7% 51.15% 77.7% 45.76%}
+.vyora-home .v648{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:18.2% 51.48% 78.52% 46.09%;line-height:normal;font-style:normal;color:#e95b31;font-size:17px;text-align:center;white-space:nowrap}
+.vyora-home .v649{position:absolute;inset:50.66% 56.3% 45.41% 34.3%}
+.vyora-home .v650{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:51.48% 61.94% 46.23% 34.79%;line-height:normal;font-style:normal;font-size:12px;color:#fff;white-space:nowrap}
+.vyora-home .v651{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:57.7% 53.7% 38.85% 34.55%;line-height:normal;font-style:normal;color:#203646;font-size:18px;white-space:nowrap}
+.vyora-home .v652{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:62.62% 56.55% 34.75% 34.55%;line-height:normal;font-style:normal;color:#687e8d;font-size:14px;white-space:nowrap}
+.vyora-home .v653{position:absolute;inset:67.54% 58.79% 28.36% 34.55%}
+.vyora-home .v654{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:68.52% 59.15% 29.18% 35.03%;line-height:normal;font-style:normal;color:#007fc9;font-size:12px;white-space:nowrap}
+.vyora-home .v655{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:71.97% 58.06% 23.44% 34.55%;line-height:normal;font-style:normal;color:#0289eb;font-size:24px;white-space:nowrap}
+.vyora-home .v656{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:77.38% 61.15% 20% 34.55%;line-height:normal;font-style:normal;color:#91a0aa;font-size:14px;white-space:nowrap}
+.vyora-home .v657{position:absolute;inset:78.85% 60.3% 21.15% 34.55%}
+.vyora-home .v658{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:77.38% 51.45% 20.16% 44.61%;line-height:normal;font-style:normal;color:#596e7c;font-size:13px;text-align:right;white-space:nowrap}
+.vyora-home .v659{position:absolute;inset:81.97% 51.39% 18.03% 34.55%}
+.vyora-home .v660{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:83.77% 61.64% 13.61% 34.55%;line-height:normal;font-style:normal;color:#657989;font-size:14px;white-space:nowrap}
+.vyora-home .v661{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:83.77% 51.45% 13.61% 46.3%;line-height:normal;font-style:normal;color:#e7a02b;font-size:14px;text-align:right;white-space:nowrap}
+.vyora-home .v662{position:absolute;display:contents;inset:16.07% 33.7% 11.15% 50.55%}
+.vyora-home .v663{position:absolute;inset:16.07% 33.7% 11.15% 50.55%}
+.vyora-home .v664{position:absolute;display:contents;inset:16.23% 33.76% 43.77% 50.61%}
+.vyora-home .v665{position:absolute;inset:16.23% 33.76% 41.48% 50.61%;mask-mode:alpha;mask-composite:intersect;mask-clip:no-clip;mask-repeat:no-repeat;mask-size:258px 244px}
+.vyora-home .v666{position:absolute;inset:17.7% 34.3% 77.7% 62.61%}
+.vyora-home .v667{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:18.2% 34.64% 78.52% 62.94%;line-height:normal;font-style:normal;color:#e95b31;font-size:17px;text-align:center;white-space:nowrap}
+.vyora-home .v668{position:absolute;inset:50.66% 39.45% 45.41% 51.15%}
+.vyora-home .v669{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:51.48% 44.79% 46.23% 51.64%;line-height:normal;font-style:normal;font-size:12px;color:#fff;white-space:nowrap}
+.vyora-home .v670{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:57.7% 34.67% 38.85% 51.39%;line-height:normal;font-style:normal;color:#203646;font-size:18px;white-space:nowrap}
+.vyora-home .v671{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:62.62% 37.94% 34.75% 51.39%;line-height:normal;font-style:normal;color:#687e8d;font-size:14px;white-space:nowrap}
+.vyora-home .v672{position:absolute;inset:67.54% 41.94% 28.36% 51.39%}
+.vyora-home .v673{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:68.52% 42.3% 29.18% 51.88%;line-height:normal;font-style:normal;color:#007fc9;font-size:12px;white-space:nowrap}
+.vyora-home .v674{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:71.97% 42.42% 23.44% 51.39%;line-height:normal;font-style:normal;color:#0289eb;font-size:24px;white-space:nowrap}
+.vyora-home .v675{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:77.38% 45.03% 20% 51.39%;line-height:normal;font-style:normal;color:#91a0aa;font-size:14px;white-space:nowrap}
+.vyora-home .v676{position:absolute;inset:78.85% 43.45% 21.15% 51.39%}
+.vyora-home .v677{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:77.38% 34.61% 20.16% 61.64%;line-height:normal;font-style:normal;color:#596e7c;font-size:13px;text-align:right;white-space:nowrap}
+.vyora-home .v678{position:absolute;inset:81.97% 34.55% 18.03% 51.39%}
+.vyora-home .v679{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:83.77% 46.06% 13.61% 51.39%;line-height:normal;font-style:normal;color:#657989;font-size:14px;white-space:nowrap}
+.vyora-home .v680{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:83.77% 34.61% 13.61% 63.15%;line-height:normal;font-style:normal;color:#e7a02b;font-size:14px;text-align:right;white-space:nowrap}
+.vyora-home .v681{position:absolute;display:contents;inset:16.07% 16.85% 11.15% 67.39%}
+.vyora-home .v682{position:absolute;inset:16.07% 16.85% 11.15% 67.39%}
+.vyora-home .v683{position:absolute;display:contents;inset:16.23% 16.91% 43.77% 67.45%}
+.vyora-home .v684{position:absolute;inset:16.23% 16.91% 41.48% 67.45%;mask-mode:alpha;mask-composite:intersect;mask-clip:no-clip;mask-repeat:no-repeat;mask-size:258px 244px}
+.vyora-home .v685{position:absolute;inset:17.7% 17.45% 77.7% 79.45%}
+.vyora-home .v686{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:18.2% 17.79% 78.52% 79.79%;line-height:normal;font-style:normal;color:#e95b31;font-size:17px;text-align:center;white-space:nowrap}
+.vyora-home .v687{position:absolute;inset:50.66% 22.61% 45.41% 68%}
+.vyora-home .v688{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:51.48% 25.88% 46.23% 68.48%;line-height:normal;font-style:normal;font-size:12px;color:#fff;white-space:nowrap}
+.vyora-home .v689{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:57.7% 17.94% 38.85% 68.24%;line-height:normal;font-style:normal;color:#203646;font-size:18px;white-space:nowrap}
+.vyora-home .v690{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:62.62% 20.73% 34.75% 68.24%;line-height:normal;font-style:normal;color:#687e8d;font-size:14px;white-space:nowrap}
+.vyora-home .v691{position:absolute;inset:67.54% 25.09% 28.36% 68.24%}
+.vyora-home .v692{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:68.52% 25.45% 29.18% 68.73%;line-height:normal;font-style:normal;color:#007fc9;font-size:12px;white-space:nowrap}
+.vyora-home .v693{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:71.97% 25.58% 23.44% 68.24%;line-height:normal;font-style:normal;color:#0289eb;font-size:24px;white-space:nowrap}
+.vyora-home .v694{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:77.38% 27.45% 20% 68.24%;line-height:normal;font-style:normal;color:#91a0aa;font-size:14px;white-space:nowrap}
+.vyora-home .v695{position:absolute;inset:78.85% 26.61% 21.15% 68.24%}
+.vyora-home .v696{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:77.38% 17.76% 20.16% 78.3%;line-height:normal;font-style:normal;color:#596e7c;font-size:13px;text-align:right;white-space:nowrap}
+.vyora-home .v697{position:absolute;inset:81.97% 17.7% 18.03% 68.24%}
+.vyora-home .v698{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:83.77% 28.36% 13.61% 68.24%;line-height:normal;font-style:normal;color:#657989;font-size:14px;white-space:nowrap}
+.vyora-home .v699{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:83.77% 17.76% 13.61% 80%;line-height:normal;font-style:normal;color:#e7a02b;font-size:14px;text-align:right;white-space:nowrap}
+.vyora-home .v700{position:absolute;display:contents;inset:16.07% 0 11.15% 84.24%}
+.vyora-home .v701{position:absolute;inset:16.07% 0 11.15% 84.24%}
+.vyora-home .v702{position:absolute;display:contents;inset:16.23% 0.06% 43.77% 84.3%}
+.vyora-home .v703{position:absolute;inset:16.23% 0.06% 41.48% 84.3%;mask-mode:alpha;mask-composite:intersect;mask-clip:no-clip;mask-repeat:no-repeat;mask-size:258px 244px}
+.vyora-home .v704{position:absolute;inset:17.7% 0.61% 77.7% 96.3%}
+.vyora-home .v705{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:18.2% 0.94% 78.52% 96.64%;line-height:normal;font-style:normal;color:#e95b31;font-size:17px;text-align:center;white-space:nowrap}
+.vyora-home .v706{position:absolute;inset:50.66% 5.76% 45.41% 84.85%}
+.vyora-home .v707{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:51.48% 7.64% 46.23% 85.33%;line-height:normal;font-style:normal;font-size:12px;color:#fff;white-space:nowrap}
+.vyora-home .v708{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:57.7% 0.42% 38.85% 85.09%;line-height:normal;font-style:normal;color:#203646;font-size:18px;white-space:nowrap}
+.vyora-home .v709{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:62.62% 3.7% 34.75% 85.09%;line-height:normal;font-style:normal;color:#687e8d;font-size:14px;white-space:nowrap}
+.vyora-home .v710{position:absolute;inset:67.54% 8.24% 28.36% 85.09%}
+.vyora-home .v711{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:68.52% 8.61% 29.18% 85.58%;line-height:normal;font-style:normal;color:#007fc9;font-size:12px;white-space:nowrap}
+.vyora-home .v712{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:71.97% 8.73% 23.44% 85.09%;line-height:normal;font-style:normal;color:#0289eb;font-size:24px;white-space:nowrap}
+.vyora-home .v713{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:77.38% 11.33% 20% 85.09%;line-height:normal;font-style:normal;color:#91a0aa;font-size:14px;white-space:nowrap}
+.vyora-home .v714{position:absolute;inset:78.85% 9.76% 21.15% 85.09%}
+.vyora-home .v715{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:77.38% 0.91% 20.16% 95.33%;line-height:normal;font-style:normal;color:#596e7c;font-size:13px;text-align:right;white-space:nowrap}
+.vyora-home .v716{position:absolute;inset:81.97% 0.85% 18.03% 85.09%}
+.vyora-home .v717{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:400;inset:83.77% 11.58% 13.61% 85.09%;line-height:normal;font-style:normal;color:#657989;font-size:14px;white-space:nowrap}
+.vyora-home .v718{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:83.77% 0.91% 13.61% 96.85%;line-height:normal;font-style:normal;color:#e7a02b;font-size:14px;text-align:right;white-space:nowrap}
+.vyora-home .v719{position:absolute;inset:92.3% 40.91% 1.15% 40.91%}
+.vyora-home .v720{position:absolute;inset:-1.25% -0.17%}
+.vyora-home .v721{overflow-wrap:break-word;position:absolute;font-family:"Arial",Arial,sans-serif;font-weight:700;inset:93.93% 44.91% 3.11% 44.91%;line-height:normal;font-style:normal;color:#0289eb;font-size:16px;text-align:center;white-space:nowrap}

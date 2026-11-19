@@ -1,0 +1,8 @@
+.shop-header {
+  position: relative;
+  z-index: 3;
+  background: white;
+  box-shadow: 0 2px 5px #0264963d;
+}
+
+.shop-header .shop-header-canvas { height: 117px; }
