@@ -17,97 +17,6 @@ function Layer1_303(){
 
 return (<div className="v0" style={{position:"absolute",left:0,top:123,width:1920,height:661}} data-node-id="1:303" />);
 }
-function JourneySuggestion(){
-const imgLine4 = "/assets/vyora/a2daeef86fa0e270.svg";
-const imgArrowDropDown = "/assets/vyora/b23057eec7a5e66f.svg";
-const imgLocationOn = "/assets/vyora/a66a68a1fbf71abe.svg";
-const imgCalendarMonth = "/assets/vyora/c8ddf654e0bfc496.svg";
-
-
-return (<div className="v1" data-node-id="1:305">
-      <div className="v2" data-node-id="1:306" />
-      <div className="v3" data-node-id="1:307">
-        <div className="v4">
-          <div className="v5">
-            <div className="v6">
-              <img alt="" className="v7" src={imgLine4} />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="v8" data-node-id="1:308">
-        <div className="v4">
-          <div className="v5">
-            <div className="v6">
-              <img alt="" className="v7" src={imgLine4} />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="v9" data-node-id="1:309">
-        <div className="v10" data-node-id="1:310" data-name="arrow_drop_down">
-          <img alt="" className="v11" src={imgArrowDropDown} />
-        </div>
-        <p className="v12" data-node-id="1:313">
-          TP. Cần Thơ
-        </p>
-        <p className="v13" data-node-id="1:314">
-          Địa điểm xuất phát
-        </p>
-        <div className="v14" data-node-id="1:315" data-name="location_on">
-          <img alt="" className="v11" src={imgLocationOn} />
-        </div>
-      </div>
-      <div className="v15" data-node-id="1:333">
-        <div className="v16" data-node-id="1:334" data-name="arrow_drop_down">
-          <img alt="" className="v11" src={imgArrowDropDown} />
-        </div>
-        <p className="v17" data-node-id="1:337">
-          TP. Đà Nẵng
-        </p>
-        <p className="v18" data-node-id="1:338">
-          Địa điểm đến
-        </p>
-        <div className="v19" data-node-id="1:339" data-name="location_on">
-          <img alt="" className="v11" src={imgLocationOn} />
-        </div>
-      </div>
-      <div className="v20" data-node-id="1:318">
-        <p className="v21" data-node-id="1:319">
-          21:00 T6, 04/09 - 22:00 T7, 05/09
-        </p>
-        <p className="v22" data-node-id="1:320">
-          Thời gian xuất phát
-        </p>
-        <div className="v23" data-node-id="1:321" data-name="arrow_drop_down">
-          <img alt="" className="v11" src={imgArrowDropDown} />
-        </div>
-        <div className="v24" data-node-id="1:324" data-name="calendar_month">
-          <img alt="" className="v11" src={imgCalendarMonth} />
-        </div>
-      </div>
-      <div className="v25" data-node-id="1:344">
-        <p className="v26" data-node-id="1:345">
-          21:00 T7, 05/09 - 22:00 T7, 05/09
-        </p>
-        <p className="v27" data-node-id="1:346">
-          Thời gian kết thúc
-        </p>
-        <div className="v28" data-node-id="1:347" data-name="arrow_drop_down">
-          <img alt="" className="v11" src={imgArrowDropDown} />
-        </div>
-        <div className="v29" data-node-id="1:350" data-name="calendar_month">
-          <img alt="" className="v11" src={imgCalendarMonth} />
-        </div>
-      </div>
-      <div className="v30" data-node-id="1:327">
-        <div className="v31" data-node-id="1:328" />
-        <p className="v32" data-node-id="1:329">
-          Gợi ý cho bạn
-        </p>
-      </div>
-    </div>);
-}
 function UtilityBar(){
 const imgLine1 = "/assets/vyora/5c96517181de75d8.svg";
 const imgMobile = "/assets/vyora/103fe5c8176fabe6.svg";
@@ -2135,7 +2044,6 @@ function PartnerExtras(){return <>
 
 export default function HomeArtwork(){return <>
 <Layer1_303 />
-<JourneySuggestion />
 <BannerGrid />
 <Layer1_304 />
 <Layer1_355 />

@@ -1,0 +1,40 @@
+.vyora-home .journey-selection {
+  position: absolute; left: 456px; top: 545px; width: 950px; height: 209px;
+  display: grid; grid-template-columns: 330px 465px 155px;
+  border-radius: 20px; background: #fff; box-shadow: 1px 8px 15.6px #0004;
+  font-family: Montserrat, Arial, sans-serif; color: #1c1c20;
+}
+.journey-places,.journey-times { display: grid; grid-template-rows: 1fr 1fr; margin: 25px 0; border-right: 1px solid #ededed; }
+.journey-place,.journey-time { position: relative; min-width: 0; display: grid; grid-template-columns: 24px minmax(0,1fr); column-gap: 10px; align-content: start; text-align: left; padding: 4px 24px 0 28px; }
+.journey-place img,.journey-time img { grid-row: span 2; width: 22px; height: 22px; }
+.journey-place>span,.journey-time>span { font-size: 14px; font-weight: 300; }
+.vyora-home .journey-place select {
+  width: 100%; min-width: 0; padding: 3px 25px 2px 0; border: 0; border-radius: 0;
+  font: 500 20px Montserrat,Arial,sans-serif; color: #111; background-color: white; cursor: pointer;
+}
+.journey-time { border: 0; background: transparent; cursor: pointer; }
+.vyora-home .journey-time strong { padding-top: 3px; padding-right: 14px; font: 500 20px Montserrat,Arial,sans-serif; color: #111; white-space: nowrap; }
+.journey-time::after { content: ''; position: absolute; right: 25px; top: 26px; border: 5px solid transparent; border-top-color: #1c1c20; }
+.journey-suggest {
+  align-self: center; justify-self: center; width: 120px; min-height: 68px; padding: 10px;
+  border-radius: 10px; background: linear-gradient(90deg,#038cf0,#3eacff); color: white;
+  font: 500 14px/1.4 Montserrat,Arial,sans-serif; cursor: pointer;
+}
+.journey-suggest:hover { background: #077bd1; }
+.journey-selection :focus-visible { outline: 2px solid #0879ca; outline-offset: 3px; }
+.vyora-home .journey-selection-error { position: absolute; bottom: 6px; left: 28px; color: #a32238; font-size: 12px; }
+.journey-dialog { width: min(560px,calc(100vw - 28px)); max-height: calc(100dvh - 28px); box-sizing: border-box; border: 1px solid #c7dceb; border-radius: 16px; padding: 22px; background: white; color: #163750; font: 15px/1.5 SVN-Gilroy,Arial,sans-serif; text-align: left; color-scheme: light; }
+.journey-dialog::backdrop { background: #102c4d99; }
+.journey-dialog header { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.journey-dialog h2 { margin: 0; color: #163750; font: 700 23px/1.3 SVN-Gilroy,Arial,sans-serif; letter-spacing: normal; }
+.journey-dialog header button { border: 0; background: none; font-size: 26px; color: inherit; cursor: pointer; }
+.journey-dialog fieldset { display: grid; grid-template-columns: 1fr; gap: 12px; margin: 18px 0; border: 1px solid #d3e3ef; border-radius: 9px; padding: 12px; }
+.journey-dialog legend { padding: 0 5px; font-weight: 700; }
+.journey-dialog label { display: grid; gap: 5px; min-width: 0; }
+.journey-dialog input { box-sizing: border-box; width: 100%; min-width: 0; padding: 8px; border: 1px solid #b8d0e4; border-radius: 6px; color: inherit; background: white; font: inherit; }
+.journey-dialog footer { display: flex; justify-content: flex-end; gap: 10px; }
+.journey-dialog footer button { border: 1px solid #bad6ed; border-radius: 7px; padding: 9px 18px; font: inherit; background: white; color: #125a93; cursor: pointer; }
+.journey-dialog footer button[type=submit] { background: #146dc5; color: white; }
+.journey-dialog :focus-visible { outline: 2px solid #0879ca; outline-offset: 2px; }
+.journey-error { color: #a32238; }
+@media(max-width:480px) { .journey-dialog fieldset { grid-template-columns: 1fr; } }

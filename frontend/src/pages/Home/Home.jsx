@@ -4,6 +4,7 @@ import HomeArtwork, { SiteFooter } from './HomeArtwork';
 import HomeHeader from './HomeHeader';
 import HomeForumPosts from './HomeForumPosts';
 import HomeOffer from './HomeOffer';
+import JourneySuggestion from './JourneySuggestion';
 import { authRequest } from '../../services/auth';
 import { products } from '../FlashSale/products';
 import { categories, categoryPath } from '../Catalog/categories';
@@ -64,6 +65,7 @@ export default function Home() {
       {!initialQuery && featuredProduct && <HomeOffer product={featuredProduct} />}
       <div className="vyora-home" ref={frame} style={{ transform: `scale(${scale})` }}>
         <HomeArtwork />
+        <JourneySuggestion onSuggest={() => jump('100:874')} />
         <HomeHeader key={initialQuery} user={user} onLogout={() => setUser(null)} onSearch={term => searchHome(frame.current, term)} initialQuery={initialQuery} />
         <SiteFooter />
         <nav className="home-category-links" aria-label="Danh mục sản phẩm">
@@ -78,7 +80,6 @@ export default function Home() {
         <Link className="home-hit home-sale-all" to="/flash-sale" aria-label="Xem tất cả sản phẩm Flash Sale" />
         <HomeForumPosts />
         <Link className="home-hit home-forum-all" to="/forum" aria-label="Xem tất cả bài viết diễn đàn" />
-        <button className="home-hit home-suggest" aria-label="Gợi ý trải nghiệm cho bạn" onClick={() => jump('100:874')} />
         <button className="home-hit home-more" aria-label="Xem thêm trải nghiệm" onClick={() => jump('100:890')} />
       </div>
     </main>
