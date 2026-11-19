@@ -1,3 +1,10 @@
+/*
+ĐƠN MUA VÀ ĐÁNH GIÁ — router được gắn tại /api trong src/app.js.
+Order lưu userId, các dòng sản phẩm, ngày giờ sử dụng, tổng tiền và đánh giá.
+Giỏ hàng thuộc frontend; API nhận các dòng đã chọn để kiểm tra và tạo đơn.
+Phần đặt hàng hiện mô phỏng thanh toán của đồ án.
+*/
+
 import { Router } from 'express';
 import { authenticate } from '../middleware/auth.js';
 import { Order } from '../models/order.js';
@@ -31,6 +38,7 @@ const catalog = {
   'hi-spa-duong-sinh': { name: 'Hi Spa dưỡng sinh', image: '/assets/vyora/07bfa78bdc03fd82.png', price: 299000 },
 };
 
+// Kiểm tra YYYY-MM-DD là ngày tồn tại; hàm này kiểm tra định dạng/ngày thực tế.
 function validDate(date) {
   if (typeof date !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(date)) return false;
   const parsed = new Date(date);
@@ -41,11 +49,27 @@ export function orderRoutes(users, orders = Order) {
   const router = Router();
   const signedIn = authenticate(users);
 
+  /**
+   * GET /api/orders — Xem đơn đã mua.
+   * Quyền truy cập — Đã đăng nhập.
+   * Đầu vào — Cookie phiên; lấy userId từ req.user.
+   * Thành công — 200 { orders }, sắp xếp đơn mới nhất trước.
+   * Xử lý — Tìm Order theo đúng tài khoản trong phiên; no-store yêu cầu trình duyệt tải dữ liệu mới.
+   * Lỗi thường gặp — 401 phiên không hợp lệ.
+   */
   router.get('/orders', signedIn, async (req, res) => {
     const result = await orders.find({ userId: req.user._id }).sort({ createdAt: -1 }).lean();
     res.set('Cache-Control', 'no-store').json({ orders: result });
   });
 
+  /**
+   * POST /api/orders — Tạo đơn mua kiểm thử.
+   * Quyền truy cập — Đã đăng nhập.
+   * Đầu vào — JSON { requestId, items: [{ slug, date, time, quantity }], voucherApplied?, cartOwner?, note?, payment? }.
+   * Thành công — 201 { order } khi tạo mới; 200 { order } nếu gửi lại requestId của đơn đã tạo bởi chính tài khoản.
+   * Xử lý — Kiểm tra tài khoản, từng dòng, giới hạn số lượng theo khung giờ; lấy giá server, tính tổng và lưu Order.
+   * Lỗi thường gặp — 400 dữ liệu sai; 401 thiếu phiên; 409 sai cartOwner hoặc mã requestId đã thuộc đơn khác.
+   */
   router.post('/orders', signedIn, async (req, res) => {
     const { requestId, items, voucherApplied, cartOwner, note = '', payment = 'arrival' } = req.body ?? {};
     if (cartOwner !== undefined && cartOwner !== String(req.user._id)) {
@@ -58,6 +82,10 @@ export function orderRoutes(users, orders = Order) {
       return res.status(400).json({ message: 'Thông tin đơn hàng không hợp lệ.' });
     }
 
+    // date dùng YYYY-MM-DD; time dùng HH:mm; quantity là số nguyên dương.
+        // payment nhận arrival, transfer hoặc card; note tối đa 200 ký tự.
+        // quantitiesByTime cộng các dòng trùng slug/ngày/giờ trong cùng yêu cầu,
+        // rồi kiểm tra mức stock trong catalog (mặc định 99); đây là giới hạn từng đơn.
     const lines = [];
     const quantitiesByTime = new Map();
     for (const item of items) {
@@ -77,6 +105,7 @@ export function orderRoutes(users, orders = Order) {
       lines.push({ slug, date, time, quantity, name: product.name, image: product.image, price: product.price });
     }
 
+    // Tính lại giá từ catalog server; voucherApplied=true giảm 10% và làm tròn số đồng.
     const subtotal = lines.reduce((sum, item) => sum + item.price * item.quantity, 0);
     const total = subtotal - (voucherApplied === true ? Math.round(subtotal * 0.1) : 0);
 
@@ -84,6 +113,7 @@ export function orderRoutes(users, orders = Order) {
       const order = await orders.create({ _id: requestId, userId: req.user._id, items: lines, total, note: note.trim(), payment });
       return res.status(201).json({ order });
     } catch (error) {
+      // MongoDB 11000 báo trùng khóa. requestId làm _id giúp tránh tạo đơn lặp khi khách gửi lại.
       if (error.code !== 11000) throw error;
       const order = await orders.findOne({ _id: requestId, userId: req.user._id });
       if (order) return res.json({ order });
@@ -91,6 +121,14 @@ export function orderRoutes(users, orders = Order) {
     }
   });
 
+  /**
+   * POST /api/orders/:id/items/:itemId/review — Đánh giá một sản phẩm đã mua.
+   * Quyền truy cập — Đã đăng nhập, đơn thuộc tài khoản hiện tại.
+   * Đầu vào — Params id là mã đơn, itemId là _id dòng sản phẩm; JSON { rating, comment }.
+   * Thành công — 201 { review } gồm author, rating, comment, date.
+   * Xử lý — Kiểm tra rating nguyên 1–5, comment 1–500 ký tự; cập nhật dòng chưa có review trong đúng đơn của người dùng.
+   * Lỗi thường gặp — 400 dữ liệu sai; 401 thiếu phiên; 409 đã đánh giá hoặc dòng sản phẩm không thuộc đơn của mình.
+   */
   router.post('/orders/:id/items/:itemId/review', signedIn, async (req, res) => {
     const { rating, comment } = req.body ?? {};
     const { id, itemId } = req.params;
@@ -101,6 +139,7 @@ export function orderRoutes(users, orders = Order) {
     }
 
     const review = { author: req.user.username, rating, comment: comment.trim(), date: new Date() };
+    // $elemMatch kiểm tra cùng một dòng; items.$ chọn dòng đó để ghi review nguyên tử.
     const result = await orders.updateOne(
       { _id: id, userId: req.user._id, items: { $elemMatch: { _id: itemId, review: { $exists: false } } } },
       { $set: { 'items.$.review': review } },
@@ -111,10 +150,19 @@ export function orderRoutes(users, orders = Order) {
     res.status(201).json({ review });
   });
 
+  /**
+   * GET /api/products/:slug/reviews — Đọc đánh giá trên trang sản phẩm.
+   * Quyền truy cập — Công khai.
+   * Đầu vào — Params slug là mã sản phẩm trong catalog.
+   * Thành công — 200 { reviews }, có avatar và sắp xếp đánh giá mới nhất trước.
+   * Xử lý — aggregate tách items, lọc slug có review, nối User để lấy avatar và chọn trường trả về.
+   * Lỗi thường gặp — 404 slug không tồn tại.
+   */
   router.get('/products/:slug/reviews', async (req, res) => {
     if (!Object.hasOwn(catalog, req.params.slug)) return res.status(404).json({ message: 'Không tìm thấy sản phẩm.' });
     const reviews = await orders.aggregate([
       { $match: { 'items.slug': req.params.slug } },
+      // $unwind tách mỗi phần tử items thành một bản ghi để lọc đánh giá theo sản phẩm.
       { $unwind: '$items' },
       { $match: { 'items.slug': req.params.slug, 'items.review': { $exists: true } } },
       { $sort: { 'items.review.date': -1 } },

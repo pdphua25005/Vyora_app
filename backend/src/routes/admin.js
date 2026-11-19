@@ -1,3 +1,11 @@
+/*
+QUẢN TRỊ — router được gắn tại /api/admin trong src/app.js.
+Tất cả API đi qua authenticate rồi requireRole('admin').
+Lỗi dùng chung gồm 401 thiếu/hết phiên và 403 tài khoản thiếu quyền.
+Các danh sách dùng page, mỗi trang 15 bản ghi, trả { rows, total, page, pageSize }.
+q là từ khóa tìm kiếm; các thao tác thay đổi có ghi AdminAudit.
+*/
+
 import { Router } from 'express';
 import mongoose from 'mongoose';
 import { authenticate, requireRole, publicUser } from '../middleware/auth.js';
@@ -14,17 +22,20 @@ const userFields = 'username displayName email phone gender birthDate role delet
 const missing = res => res.status(404).json({ message: 'Không tìm thấy dữ liệu.' });
 const invalid = res => res.status(400).json({ message: 'Thông tin nhập vào không hợp lệ.' });
 
+// Escape ký tự regex trong q để tìm như văn bản; giới hạn từ khóa 100 ký tự.
 function search(query, fields) {
   if (typeof query !== 'string' || !query.trim()) return {};
   const escaped = query.trim().slice(0, 100).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   return { $or: fields.map(field => ({ [field]: { $regex: escaped, $options: 'i' } })) };
 }
 
+// page là số trang bắt đầu từ 1; giá trị không hợp lệ dùng 1 và chặn tối đa 10.000.
 function pageNumber(query) {
   const value = Number(query.page);
   return Number.isSafeInteger(value) && value > 0 ? Math.min(value, 10000) : 1;
 }
 
+// Tải dữ liệu của một trang và đếm tổng song song; select(fields) chọn trường được trả.
 async function list(model, filter, page, fields, sort = { createdAt: -1, _id: -1 }) {
   const [rows, total] = await Promise.all([
     model.find(filter).select(fields).sort(sort).skip((page - 1) * pageSize).limit(pageSize).lean(),
@@ -46,6 +57,7 @@ function visibleComments(filter = {}) {
   ];
 }
 
+// Tổng hợp tối đa 15 hoạt động gần đây từ dữ liệu hiện có: đăng ký, lần đăng nhập cuối, đơn, bài, bình luận, review, cảm xúc.
 async function activityFor(user) {
   const userId = user._id;
   const latest = { _id: -1 };
@@ -90,6 +102,7 @@ async function activityFor(user) {
 
 // Lưu thao tác và nhật ký trong cùng giao dịch MongoDB.
 async function change(req, model, filter, update, action, describe) {
+  // Transaction bảo đảm cập nhật nội dung và ghi nhật ký cùng thành công hoặc cùng rollback.
   return mongoose.connection.transaction(async session => {
     const item = await model.findOneAndUpdate(filter, update, { session, runValidators: true });
     if (!item) return false;
@@ -101,6 +114,7 @@ async function change(req, model, filter, update, action, describe) {
   });
 }
 
+// Chỉ nhận trường hồ sơ cho phép; role qua API này nhận user/partner. Cấp admin dùng script grant-admin.js.
 function userChanges(body) {
   const changes = {};
   for (const field of ['username', 'email', 'phone', 'displayName', 'gender', 'birthDate', 'role']) {
@@ -128,6 +142,14 @@ export function adminRoutes(users = User) {
   router.use((_req, res, next) => { res.set('Cache-Control', 'no-store'); next(); });
   router.use(authenticate(users), requireRole('admin'));
 
+  /**
+   * GET /api/admin/overview — Số liệu tổng quan.
+   * Quyền truy cập — Admin.
+   * Đầu vào — Cookie phiên.
+   * Thành công — 200 { viewer, metrics, audit, recentOrders }.
+   * Xử lý — Đếm tài khoản/bài/bình luận hiện hữu, tổng đơn và giá trị, lấy 6 nhật ký và 5 đơn gần nhất.
+   * Lỗi thường gặp — 401/403 theo middleware dùng chung.
+   */
   router.get('/overview', async (req, res) => {
     const [accounts, posts, comments, orders, audit, recentOrders] = await Promise.all([
       User.countDocuments(active), ForumPost.countDocuments(active),
@@ -144,6 +166,14 @@ export function adminRoutes(users = User) {
     });
   });
 
+  /**
+   * GET /api/admin/users — Tra cứu tài khoản.
+   * Quyền truy cập — Admin.
+   * Đầu vào — Query q?, role? (user/partner/admin), status? (active/deleted), page?.
+   * Thành công — 200 { rows, total, page, pageSize }, chỉ trả các trường trong userFields.
+   * Xử lý — Tìm tên/email/điện thoại, lọc vai trò và trạng thái xóa rồi phân trang.
+   * Lỗi thường gặp — 401/403 theo middleware dùng chung.
+   */
   router.get('/users', async (req, res) => {
     const filter = search(req.query.q, ['username', 'email', 'displayName', 'phone']);
     if (['user', 'partner', 'admin'].includes(req.query.role)) filter.role = req.query.role;
@@ -152,6 +182,14 @@ export function adminRoutes(users = User) {
     res.json(await list(User, filter, pageNumber(req.query), userFields));
   });
 
+  /**
+   * GET /api/admin/users/:id — Hồ sơ và lịch sử một tài khoản.
+   * Quyền truy cập — Admin.
+   * Đầu vào — Params id là mã tài khoản.
+   * Thành công — 200 { user, activity, orderCount, orderTotal }.
+   * Xử lý — Đọc hồ sơ rồi tổng hợp các hoạt động từ dữ liệu đã lưu.
+   * Lỗi thường gặp — 404 mã sai hoặc tài khoản không tồn tại.
+   */
   router.get('/users/:id', async (req, res) => {
     if (!validId(req.params.id)) return missing(res);
     const user = await User.findById(req.params.id).select(userFields).lean();
@@ -159,6 +197,14 @@ export function adminRoutes(users = User) {
     res.json({ user, ...await activityFor(user) });
   });
 
+  /**
+   * PATCH /api/admin/users/:id — Sửa tài khoản.
+   * Quyền truy cập — Admin.
+   * Đầu vào — JSON các trường username?, email?, phone?, displayName?, gender?, birthDate?, role?.
+   * Thành công — 200 { message }.
+   * Xử lý — Kiểm tra trường; nếu đổi role thì tăng sessionVersion để thu hồi phiên; lưu cùng nhật ký.
+   * Lỗi thường gặp — 400 dữ liệu sai; 404 tài khoản không phù hợp điều kiện cập nhật; 409 tên/email trùng.
+   */
   router.patch('/users/:id', async (req, res) => {
     const { id } = req.params;
     if (!validId(id)) return missing(res);
@@ -180,6 +226,14 @@ export function adminRoutes(users = User) {
     }
   });
 
+  /**
+   * DELETE /api/admin/users/:id — Xóa mềm tài khoản.
+   * Quyền truy cập — Admin, áp dụng với tài khoản user/partner.
+   * Đầu vào — Params id là mã tài khoản.
+   * Thành công — 200 { message }.
+   * Xử lý — Đặt deletedAt và tăng sessionVersion để phiên cũ hết hiệu lực; giữ dữ liệu đơn để tra cứu.
+   * Lỗi thường gặp — 404 sai định dạng id; 409 tài khoản không tồn tại, đã xóa hoặc có vai trò admin.
+   */
   router.delete('/users/:id', async (req, res) => {
     if (!validId(req.params.id)) return missing(res);
     const filter = { _id: req.params.id, role: { $ne: 'admin' }, ...active };
@@ -190,6 +244,14 @@ export function adminRoutes(users = User) {
     res.json({ message: 'Đã xóa tài khoản và thu hồi phiên đăng nhập.' });
   });
 
+  /**
+   * POST /api/admin/users/:id/restore — Khôi phục tài khoản đã xóa.
+   * Quyền truy cập — Admin.
+   * Đầu vào — Params id; có thể gửi JSON {}.
+   * Thành công — 200 { message }.
+   * Xử lý — Gỡ deletedAt và ghi nhật ký; người dùng đăng nhập lại để có phiên mới.
+   * Lỗi thường gặp — 404 mã sai hoặc tài khoản không ở trạng thái đã xóa.
+   */
   router.post('/users/:id/restore', async (req, res) => {
     if (!validId(req.params.id)) return missing(res);
     const filter = { _id: req.params.id, deletedAt: { $ne: null } };
@@ -197,6 +259,14 @@ export function adminRoutes(users = User) {
     res.json({ message: 'Đã khôi phục tài khoản.' });
   });
 
+  /**
+   * GET /api/admin/orders — Tra cứu đơn của mọi tài khoản.
+   * Quyền truy cập — Admin.
+   * Đầu vào — Query q? (mã đơn/tên sản phẩm), userId?, page?.
+   * Thành công — 200 danh sách phân trang; mỗi đơn có thêm customer.
+   * Xử lý — Lọc Order rồi lấy tên các khách liên quan và ghép vào phản hồi.
+   * Lỗi thường gặp — 400 userId sai định dạng.
+   */
   router.get('/orders', async (req, res) => {
     const { userId, q } = req.query;
     const filter = search(q, ['_id', 'items.name']);
@@ -210,6 +280,14 @@ export function adminRoutes(users = User) {
     res.json({ ...result, rows: result.rows.map(order => ({ ...order, customer: names.get(String(order.userId)) })) });
   });
 
+  /**
+   * GET /api/admin/posts — Danh sách bài để kiểm duyệt.
+   * Quyền truy cập — Admin.
+   * Đầu vào — Query q?, userId?, category?, page?.
+   * Thành công — 200 danh sách phân trang, mỗi bài có commentCount và photos.
+   * Xử lý — Lọc bài chưa xóa, đếm bình luận đang hiển thị và dựng URL ảnh.
+   * Lỗi thường gặp — 400 userId sai định dạng.
+   */
   router.get('/posts', async (req, res) => {
     const { userId, q, category } = req.query;
     const filter = { ...active, ...search(q, ['title', 'body', 'author']) };
@@ -233,6 +311,14 @@ export function adminRoutes(users = User) {
     });
   });
 
+  /**
+   * GET /api/admin/comments — Danh sách bình luận và câu trả lời.
+   * Quyền truy cập — Admin.
+   * Đầu vào — Query q?, userId?, postId?, page?.
+   * Thành công — 200 { rows, total, page, pageSize }, mỗi dòng có thông tin post.
+   * Xử lý — Lọc nội dung còn hiển thị, nối bài gốc, dùng $facet để lấy trang và tổng trong cùng aggregate.
+   * Lỗi thường gặp — 400 userId/postId sai định dạng.
+   */
   router.get('/comments', async (req, res) => {
     const { postId, userId, q } = req.query;
     const filter = search(q, ['body', 'author']);
@@ -255,6 +341,16 @@ export function adminRoutes(users = User) {
     res.json({ rows: result.rows, total: result.totals[0]?.total ?? 0, page, pageSize });
   });
 
+  /*
+   * Vòng lặp tạo bốn endpoint dùng chung quy trình kiểm tra và ghi nhật ký.
+   * PATCH /api/admin/posts/:id nhận { title, category, body }.
+   * PATCH /api/admin/comments/:id nhận { body }.
+   * DELETE /api/admin/posts/:id và DELETE /api/admin/comments/:id nhận id qua params.
+   * Tất cả cần admin; thành công trả 200 { message }.
+   * PATCH giới hạn title 120, body bài 5.000, body bình luận 1.000 ký tự.
+   * Dữ liệu sai trả 400; mã sai hoặc nội dung đã xóa/không tồn tại trả 404.
+   * DELETE đặt deletedAt; các API đọc ẩn cả nội dung con của bài/bình luận đã gỡ.
+   */
   for (const [path, model] of [['posts', ForumPost], ['comments', ForumComment]]) {
     const isPost = path === 'posts';
     const description = item => isPost ? item.title : item.body.slice(0, 100);
@@ -279,6 +375,14 @@ export function adminRoutes(users = User) {
     });
   }
 
+  /**
+   * GET /api/admin/audit — Nhật ký thao tác quản trị.
+   * Quyền truy cập — Admin.
+   * Đầu vào — Query q? tìm actor/target; page?.
+   * Thành công — 200 danh sách phân trang.
+   * Xử lý — Đọc AdminAudit gồm người thực hiện, hành động, đối tượng, trường thay đổi và thời gian.
+   * Lỗi thường gặp — 401/403 theo middleware dùng chung.
+   */
   router.get('/audit', async (req, res) => {
     res.json(await list(AdminAudit, search(req.query.q, ['actor', 'target']), pageNumber(req.query)));
   });
